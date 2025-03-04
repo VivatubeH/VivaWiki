@@ -183,4 +183,3 @@ public class UserV2 {
 - 일관성(Consistency) : 두 객체의 상태가 변경되지 않는 한 equals()는 항상 동일한 값을 반환해야 합니다.
 - null 비교 : 모든 객체는 null과 비교하면 false를 반환해야 합니다.  
 
-
