@@ -90,3 +90,29 @@ myButton.addEventListener('click', function() {
 myButton.style.backgroundColor = 'blue';
 ```
 - DOM 캐싱을 사용하면 DOM은 한 번만 탐색해서 변수에 캐싱한 후, 캐싱된 요소를 여러 번 사용할 수 있습니다.
+
+SEO(Search Engine Optimization)
+-------------------------------------------
+- SEO는 검색 엔진 최적화로, 웹 페이지가 검색 엔진 결과에서 더 잘 보이도록 최적화하는 방법입니다.
+- 본질적으로는 검색 결과에서 더 많은 트래픽을 얻기 위해서 최적화합니다.
+- SEO를 통해 웹 사이트의 트래픽을 늘려서 비즈니스 성과를 향상시킬 수 있습니다.
+
+참고) 다양한 SEO 방법
+---------------------------------------------
+```html
+<meta name="description" content="This is an example of SEO best practices.">
+// meta 태그를 이용해서 페이지에 대한 설명이나 키워드를 명확히 설정합니다.
+<h1>Learn SEO best Practices</h1>
+// 제목 태그를 통해 검색엔진이 페이지의 핵심 주제를 이해할 수 있게 합니다.
+<a href="https://www.example.com">Visit out SEO Guide</a>
+// 내부 링크와 외부 링크를 적절하게 사용해서 검색엔진이 페이지를 더 잘 크롤링 할 수 있게 합니다.
+<img src="seo-guide.jpg" alt="SEO guide example">
+// 이미지의 alt 속성을 설정해서 검색 엔진이 이미지를 이해하도록 돕습니다.
+```
+
+- 과도한 키워드 사용(키워드 스태핑)은 오히려 SEO에 부정적인 영향을 미칠 수 있습니다.
+
+렌더링과 SEO의 관계
+-----------------------------------------
+- 렌더링이 제대로 이루어지지 않으면, 페이지 내용이 검색엔진에 제대로 표시되지 않아서 SEO 효과를 제대로 볼 수가 없습니다.
+- Javascript 렌더링이 필요한 페이지는 검색 엔진이 페이지를 크롤링하기 어려울 수 있습니다. -> 이럴 때는 서버 사이드 렌더링(SSR)이나 프리렌더링을 활용할 수 있습니다. **
