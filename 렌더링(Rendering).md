@@ -61,3 +61,32 @@ for (let i = 0; i < 1000; i++) {
 }
 document.body.appendChild(fragment);
 ```
+
+사용자의 DOM 캐싱
+--------------------------------------
+- 자주 사용하는 DOM 요소는 캐시해서 재사용하는 방식을 택하는 것이 렌더링 성능을 향상 시킬 수 있습니다.
+- 자주 사용하는 DOM 요소를 변수에 저장해두고, 재사용시에는 이 변수를 사용해서 DOM에 접근하는 방식을 DOM 캐싱이라고 합니다.
+- DOM은 트리 구조로 되어 있어서, 특정 요소를 찾으려면 노드를 따라 내려가야 하므로 시간 소모가 큰 작업입니다.
+
+```javascript
+// 매번 DOM을 탐색하여 버튼에 접근
+document.querySelector('.my-button').addEventListener('click', function() {
+  alert('버튼 클릭!');
+});
+
+document.querySelector('.my-button').style.backgroundColor = 'blue';
+```
+- DOM 캐싱을 사용하지 않으면 한 번 접근한 DOM 요소를 또다시 querySelector로 탐색합니다.
+
+```javascript
+// DOM을 한 번만 탐색하여 변수에 캐시
+const myButton = document.querySelector('.my-button');
+
+// 캐시된 요소를 여러 번 사용할 수 있음
+myButton.addEventListener('click', function() {
+  alert('버튼 클릭!');
+});
+
+myButton.style.backgroundColor = 'blue';
+```
+- DOM 캐싱을 사용하면 DOM은 한 번만 탐색해서 변수에 캐싱한 후, 캐싱된 요소를 여러 번 사용할 수 있습니다.
