@@ -170,3 +170,17 @@ Grade myGrade = new Grade(); // enum 생성 불가
 - java.lang.Enum을 자동으로 상속받기 때문에 추가로 다른 클래스는 상속받을 수 없습니다.
 - 단, 인터페이스는 구현할 수 있고 추상 메서드 선언 및 구현이 가능합니다. ( 익명 클래스 방식으로 사용합니다. )
 
+```java
+enum Grade {
+    BASIC(10), GOLD(20), DIAMOND(30);
+
+    private final int discountPercent;
+
+    Grade(int discountPercent) {
+        this.discountPercent = discountPercent;
+    }
+}
+```
+- 열거형 상수에 괄호를 열고 생성자에 맞는 인수를 전달하면 적절한 생성자가 호출됩니다.
+- 이는 열거형 상수가 궁극적으로는 객체이기 때문에 가능합니다.
+- 즉, BASIC, GOLD, DIAMOND는 Grade 타입의 객체입니다.
