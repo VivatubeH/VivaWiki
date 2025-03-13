@@ -79,4 +79,59 @@ ArrayList가 갖는 단점
 - 정확한 크기를 알지 못한다면 메모리가 낭비되게 됩니다.
 - 데이터를 추가하거나 삭제하는 것이 비효율적입니다. ( 결국 내부에서 배열을 사용하므로 이런 한계는 극복할 수 없습니다. )
 
+ArrayList의 내부 구조
+--------------------------------------------------
+```java
+import java.util.Arrays;
+
+class MyArrayList<T> { // 타입 안정성을 위해 Generic으로 사용합니다.
+    private Object[] elements; // 내부 배열 (모든 타입을 저장할 수 있도록 내부에서 Object 배열을 사용합니다.)
+    private int size = 0; // 현재 저장된 요소 개수 ( size는 현재 저장된 요소 개수, length는 전체 배열의 크기로 다릅니다. )
+    private static final int DEFAULT_CAPACITY = 10; // 메모리 낭비를 위해서 ArrayList는 초기 크기를 설정해줘야 합니다.
+
+    public MyArrayList() {
+        elements = new Object[DEFAULT_CAPACITY]; // 기본 크기의 배열 생성
+    }
+
+    // 🔹 요소 추가 (배열이 꽉 차면 크기 늘리기)
+    public void add(T value) {
+        if (size == elements.length) {
+            resize(); // 배열 크기 늘리기
+        }
+        elements[size++] = value; // 값 저장 후 size 증가
+    }
+
+    // 🔹 요소 가져오기 (배열의 index 접근)
+    public T get(int index) {
+        if (index < 0 || index >= size) {
+            throw new IndexOutOfBoundsException("Index out of bounds");
+        }
+        return (T) elements[index]; // Object -> T로 형변환
+    }
+
+    // 🔹 현재 크기 반환
+    public int size() {
+        return size;
+    }
+
+    // 🔹 배열 크기 늘리기 (기본적으로 1.5배 증가)
+    private void resize() {
+        int newCapacity = elements.length + (elements.length / 2);
+        elements = Arrays.copyOf(elements, newCapacity); // 기존 배열 복사 후 크기 변경
+    }
+}
+
+public class ArrayListExample {
+    public static void main(String[] args) {
+        MyArrayList<Integer> list = new MyArrayList<>();
+        
+        list.add(10);
+        list.add(20);
+        list.add(30);
+        
+        System.out.println("Size: " + list.size()); // Size: 3
+        System.out.println("Element at index 1: " + list.get(1)); // Element at index 1: 20
+    }
+}
+```
 
