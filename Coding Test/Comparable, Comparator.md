@@ -2,6 +2,10 @@ Comparable, Comparator을 언제 사용할까요?
 ---------------------------------------------------
 자바 컬렉션(ArrayList, TreeSet) 등에서 사용자가 정의한 객체를 정렬하고 싶을 때, Comparator와 Comparable이라는 인터페이스들을 사용할 수 있습니다.
 
+정렬 기준 설정
+----------------------------------------------
+- HashSet : 저장된 순서도 보장되지 않기에, 정렬 기준 설정이 불가능합니다. 정렬을 원하면 List로 변환해서 정렬해야 합니다.
+- TreeSet : 최초 객체 생성시에 Comparator를 통해 정렬 기준을 정의할 수 있습니다. 이후 변경은 불가합니다.
 ```java
 package codingtest.gptsteaching;
 
