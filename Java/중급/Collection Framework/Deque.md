@@ -101,3 +101,36 @@ public class DequeStackMain {
 }
 
 ```
+- 자바의 Stack 클래스는 성능이 좋지 않고, 하위 호환을 위해서 남겨져 있습니다.
+- 따라서, Stack 자료구조가 필요하다면 Deque에 ArrayDeque 구현체를 사용하는 것이 좋습니다.
+
+자바 코드로 보는 Deque - Queue
+-----------------------------
+```java
+package deque;
+import java.util.*;
+
+public class DequeQueueMain {
+    public static void main(String[] args) {
+        Deque<Integer> deque = new ArrayDeque<>();
+
+        // 데이터를 추가합니다. ( 큐로서 사용하려고 할 때 )
+        deque.offer(1);
+        deque.offer(2);
+        deque.offer(3);
+        System.out.println(deque);
+
+        // 다음에 꺼낼 데이터를 확인 ( 꺼내지 않고 단순 조회만 합니다. )
+        System.out.println("deque.peek() = " + deque.peek());
+
+        // 데이터를 꺼냅니다.
+        System.out.println("poll = " + deque.poll());
+        System.out.println("poll = " + deque.poll());
+        System.out.println("poll = " + deque.poll());
+        System.out.println(deque);
+    }
+}
+```
+- 자바에서 Deque 인터페이스는 Queue 인터페이스의 자식이기 때문에 단순히 Queue의 기능만 필요하다면 Queue 인터페이스를 사용하고,
+- 더 많은 기능이 필요하다면 Deque 인터페이스를 사용하면 됩니다.
+- 구현체로는 성능이 빠른 ArrayDeque이 권장됩니다.
