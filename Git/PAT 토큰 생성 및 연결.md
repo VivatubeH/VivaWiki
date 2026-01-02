@@ -28,6 +28,6 @@ git remote add origin https://[복사한토큰]@github.com/VivatubeH/TIL.git
 #### 키체인에 등록된 깃허브 정보 삭제 ( 새로운 토큰 입력 관련 오류 발생 시 )
 - Mac에서 command + space 실행 후 키체인 접근 실행
 - 상단 검색창에 github.com 실행
-- 자장되어 있는 토큰 삭제
+- 저장되어 있는 토큰 삭제
 
 <img width="483" height="365" alt="image" src="https://github.com/user-attachments/assets/dd3c9b62-8827-477e-b85b-2ce31f27d6eb" />
