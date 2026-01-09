@@ -67,3 +67,18 @@ git remote -v
 
 #### Java 프로젝트 Git 사용 주의점
 - .java는 올리되, .class는 올리지 않는다. ( 다른 환경에서 빌드 시 결과가 달라질 수 있고, 용량 낭비가 됨. )
+
+#### 작업 시작 전, pull 했음에도 push가 불가능한 경우
+<img width="958" height="197" alt="image" src="https://github.com/user-attachments/assets/b58a7f84-e3d3-4747-bccf-5d9a776763d5" />
+
+- 원인 : pull한 이후, 깃허브에서 마크다운을 수정함. -> 원격 저장소에 새로운 변경사항이 생겨서 로컬과 상이함.
+
+```terminal
+git pull origin main --rebase
+```
+- 해결방법 : 단순한 pull을 하면, 커밋 히스토리가 꼬이게 된다. 내 작업 위에다가 원격의 내용을 합치는 rebase 방식으로 커밋한다.
+- 충돌이 발생하면, 에러가 난 파일을 수정후에 git add . -> git rebase --continue를 입력한다.
+- 이후 다시 push를 진행한다.
+
+  <img width="874" height="289" alt="image" src="https://github.com/user-attachments/assets/edc5a04b-6fbb-44a3-9001-fa5670d672b1" />
+  - rebase 성공하면 다시 push한다.
