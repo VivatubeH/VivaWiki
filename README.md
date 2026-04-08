@@ -9,7 +9,7 @@
 
 ### 1-1. HTTP/HTTPS
 - [X] HTTP 메서드 (GET, POST, PUT, PATCH, DELETE) 차이와 멱등성
-- [ ] HTTP 상태코드 (2xx, 3xx, 4xx, 5xx) 의미와 대표 코드
+- [ ] HTTP 상태코드 (gi2xx, 3xx, 4xx, 5xx) 의미와 대표 코드
 - [ ] HTTP 헤더 구조 (Content-Type, Authorization, Cache-Control 등)
 - [ ] HTTPS 동작 원리 (TLS handshake, 인증서)
 - [ ] HTTP/1.1 vs HTTP/2 차이 (multiplexing, 헤더 압축)
