@@ -68,6 +68,19 @@ Spring Boot **스타터**는 내 코드가 동작할 때 실제로 필요한 라
 
 ---
 
+## Task란?
+
+Task는 Gradle이 수행하는 작업 단위다.  
+예를 들어 `compileJava`, `test`, `build`, `bootRun` 같은 명령이 모두 task다.
+
+- `build`: 프로젝트 빌드
+- `test`: 테스트 실행
+- `bootRun`: Spring Boot 애플리케이션 실행
+
+Gradle은 여러 task를 조합해서 빌드 과정을 수행한다.
+
+--- 
+
 ## DSL이란?
 
 DSL(Domain Specific Language)은 **특정 목적에 특화된 언어**다.  
