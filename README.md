@@ -156,11 +156,11 @@
 
 ## 7. 개발 도구
 
-- [ ] Git 기본 (add, commit, push, pull, branch, merge)
-- [ ] Git 브랜치 전략 (git-flow, GitHub flow)
+- [X] Git 기본 (add, commit, push, pull, branch, merge)
+- [X] Git 브랜치 전략 (git-flow, GitHub flow)
 - [ ] 충돌 해결 (merge conflict)
 - [ ] GitHub PR & 코드리뷰 흐름
-- [ ] Gradle 빌드 스크립트 기본 (dependencies, task)
+- [X] Gradle 빌드 스크립트 기본 (dependencies, task)
 - [ ] Maven 기본 (pom.xml 구조)
 - [ ] IntelliJ 주요 단축키 & 디버깅
 
