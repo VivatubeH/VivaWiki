@@ -261,20 +261,26 @@
 ## 11. 데이터베이스
 
 ### 11-1. SQL
+- [ ] 데이터베이스 / RDBMS / 테이블 구조 기초
+- [ ] 제약조건 기초 (PK, FK, UNIQUE, NOT NULL)
 - [ ] SELECT, INSERT, UPDATE, DELETE 기본
 - [ ] JOIN (INNER, LEFT, RIGHT, FULL)
+- [ ] JOIN 동작 원리와 결과 row 증가 이해
 - [ ] GROUP BY, HAVING, ORDER BY
 - [ ] 서브쿼리 (스칼라, 인라인 뷰, WHERE 서브쿼리)
 - [ ] 윈도우 함수 기초 (ROW_NUMBER, RANK)
 - [ ] 트랜잭션 직접 제어 (BEGIN, COMMIT, ROLLBACK)
+- [ ] Autocommit 개념
 
 ### 11-2. 설계 & 최적화
 - [ ] 정규화 1NF ~ 3NF
 - [ ] ERD 설계 및 작성
 - [ ] 인덱스 원리 (B-Tree 구조)
 - [ ] 복합 인덱스 & 선택 기준
+- [ ] 인덱스가 적용되지 않는 경우
 - [ ] 쿼리 실행 계획 분석 (EXPLAIN)
 - [ ] 커버링 인덱스
+- [ ] 정렬 / 페이징과 인덱스 관계
 - [ ] 페이징 최적화 (offset vs cursor 방식)
 
 ### 11-3. 트랜잭션 & 동시성
@@ -283,7 +289,6 @@
 - [ ] Dirty Read, Non-Repeatable Read, Phantom Read
 - [ ] 낙관적 락 vs 비관적 락
 - [ ] DB 커넥션 풀 (HikariCP) 설정
-
 ---
 
 ## 12. 보안
