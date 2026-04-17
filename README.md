@@ -8,8 +8,8 @@
 ## 1. 네트워크
 
 ### 1-1. HTTP/HTTPS
-- [X] HTTP 메서드 (GET, POST, PUT, PATCH, DELETE) 차이와 멱등성
-- [ ] HTTP 상태코드 (gi2xx, 3xx, 4xx, 5xx) 의미와 대표 코드
+- [ ] HTTP 메서드 (GET, POST, PUT, PATCH, DELETE) 차이와 멱등성
+- [ ] HTTP 상태코드 (2xx, 3xx, 4xx, 5xx) 의미와 대표 코드
 - [ ] HTTP 헤더 구조 (Content-Type, Authorization, Cache-Control 등)
 - [ ] HTTPS 동작 원리 (TLS handshake, 인증서)
 - [ ] HTTP/1.1 vs HTTP/2 차이 (multiplexing, 헤더 압축)
@@ -74,34 +74,21 @@
 ## 4. 자료구조 & 알고리즘
 
 ### 4-1. 자료구조
-- [ ] Array
-- [ ] String
-- [ ] LinkedList 개념
-- [ ] Hash 활용 (HashMap / HashSet)
+- [ ] Array vs LinkedList
 - [ ] Stack & Queue
-- [ ] Heap (우선순위 큐)
 - [ ] Tree (이진 트리, BST, 순회)
+- [ ] Heap (우선순위 큐)
+- [ ] Hash Map 내부 동작 (해시 충돌 해결)
 - [ ] Graph (인접 행렬 vs 인접 리스트)
-- [ ] HashMap 내부 동작 (해시 충돌 해결)
 
 ### 4-2. 알고리즘
 - [ ] 시간/공간 복잡도 (Big-O)
-- [ ] 구현 / 시뮬레이션 기초
-- [ ] 정렬 기초
-- [ ] 재귀 기초
-- [ ] 투 포인터 (Two Pointers)
-- [ ] 슬라이딩 윈도우
-- [ ] 누적합 (Prefix Sum)
+- [ ] 정렬 (버블, 선택, 삽입, 합병, 퀵)
 - [ ] 이진 탐색
 - [ ] DFS & BFS
-- [ ] 완전탐색
-- [ ] 백트래킹 기초
-- [ ] 그리디 기초
 - [ ] 동적 프로그래밍 (DP) 기초
-- [ ] Union-Find
-- [ ] 파라메트릭 서치
-- [ ] 최단경로 기초
-
+- [ ] 그리디 기초
+- [ ] 재귀 & 백트래킹 기초
 
 ---
 
@@ -113,6 +100,7 @@
 - [ ] Java 메모리 모델 (Stack / Heap / Method Area)
 - [ ] GC 동작 원리 (Minor GC, Major GC, G1 GC)
 - [ ] 기본 자료형 vs 참조형 (박싱/언박싱)
+- [ ] 접근 제어자 (public, protected, private, default)  ← 추가
 
 ### 5-2. 객체지향
 - [ ] OOP 4원칙 (캡슐화, 상속, 다형성, 추상화)
@@ -120,8 +108,11 @@
 - [ ] SOLID 원칙 5가지 설명 및 예시
 - [ ] 불변 객체 설계 & final 활용
 - [ ] static 키워드 올바른 사용
+- [ ] 예외 처리 기초 (try-catch-finally, checked/unchecked exception, throw/throws, 커스텀 예외)  ← 추가
+- [ ] 예외 계층 구조 (Exception, RuntimeException)  ← 추가
 
 ### 5-3. 타입 & 컬렉션
+- [ ] == vs equals() 차이  ← 추가
 - [ ] String vs StringBuilder vs StringBuffer
 - [ ] equals() & hashCode() 재정의 원칙
 - [ ] 제네릭 (Generic) 개념 & 와일드카드
@@ -169,11 +160,11 @@
 
 ## 7. 개발 도구
 
-- [X] Git 기본 (add, commit, push, pull, branch, merge)
-- [X] Git 브랜치 전략 (git-flow, GitHub flow)
+- [ ] Git 기본 (add, commit, push, pull, branch, merge)
+- [ ] Git 브랜치 전략 (git-flow, GitHub flow)
 - [ ] 충돌 해결 (merge conflict)
 - [ ] GitHub PR & 코드리뷰 흐름
-- [X] Gradle 빌드 스크립트 기본 (dependencies, task)
+- [ ] Gradle 빌드 스크립트 기본 (dependencies, task)
 - [ ] Maven 기본 (pom.xml 구조)
 - [ ] IntelliJ 주요 단축키 & 디버깅
 
@@ -261,26 +252,22 @@
 ## 11. 데이터베이스
 
 ### 11-1. SQL
-- [ ] 데이터베이스 / RDBMS / 테이블 구조 기초
-- [ ] 제약조건 기초 (PK, FK, UNIQUE, NOT NULL)
+- [ ] 데이터베이스 / RDBMS / 테이블 구조 기초  ← 추가
+- [ ] 제약조건 기초 (PK, FK, UNIQUE, NOT NULL)  ← 추가
 - [ ] SELECT, INSERT, UPDATE, DELETE 기본
 - [ ] JOIN (INNER, LEFT, RIGHT, FULL)
-- [ ] JOIN 동작 원리와 결과 row 증가 이해
 - [ ] GROUP BY, HAVING, ORDER BY
 - [ ] 서브쿼리 (스칼라, 인라인 뷰, WHERE 서브쿼리)
 - [ ] 윈도우 함수 기초 (ROW_NUMBER, RANK)
 - [ ] 트랜잭션 직접 제어 (BEGIN, COMMIT, ROLLBACK)
-- [ ] Autocommit 개념
 
 ### 11-2. 설계 & 최적화
 - [ ] 정규화 1NF ~ 3NF
 - [ ] ERD 설계 및 작성
 - [ ] 인덱스 원리 (B-Tree 구조)
 - [ ] 복합 인덱스 & 선택 기준
-- [ ] 인덱스가 적용되지 않는 경우
 - [ ] 쿼리 실행 계획 분석 (EXPLAIN)
 - [ ] 커버링 인덱스
-- [ ] 정렬 / 페이징과 인덱스 관계
 - [ ] 페이징 최적화 (offset vs cursor 방식)
 
 ### 11-3. 트랜잭션 & 동시성
@@ -289,6 +276,7 @@
 - [ ] Dirty Read, Non-Repeatable Read, Phantom Read
 - [ ] 낙관적 락 vs 비관적 락
 - [ ] DB 커넥션 풀 (HikariCP) 설정
+
 ---
 
 ## 12. 보안
