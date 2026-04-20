@@ -84,5 +84,5 @@ nav:
       - IntelliJ:
           - Index: 개발도구/IntelliJ/index.md
 
-  - 아키텍처:
+  - 아키텍처 & 설계:
       - Index: 아키텍처/index.md
