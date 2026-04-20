@@ -5,6 +5,9 @@ site_url: https://vivatubeh.github.io/VivaWiki/
 theme:
   name: material
   language: ko
+  font:
+    text: Noto Sans KR
+    code: JetBrains Mono
   features:
     - navigation.tabs
     - navigation.sections
@@ -12,8 +15,26 @@ theme:
     - search.suggest
     - search.highlight
     - content.code.copy
+
 plugins:
   - search
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: false
+      line_spans: __span
+      pygments_lang_class: true
 
 
 nav:
