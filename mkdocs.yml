@@ -14,3 +14,57 @@ theme:
     - content.code.copy
 plugins:
   - search
+
+nav:
+  - 홈: index.md
+
+  - 네트워크:
+      - Index: 네트워크/index.md
+
+  - 운영체제:
+      - Index: 운영체제/index.md
+
+  - 컴퓨터구조:
+      - Index: 컴퓨터구조/index.md
+
+  - 자료구조 & 알고리즘:
+      - Index: 자료구조 & 알고리즘/index.md
+
+  - Java:
+      - Index: Java/index.md
+
+  - 프론트엔드:
+      - Index: 프론트엔드/index.md
+
+  - 개발 도구:
+      - Index: 개발 도구/index.md
+
+  - Spring 이론:
+      - Index: Spring 이론/index.md
+
+  - Spring 구현:
+      - Index: Spring 구현/index.md
+
+  - JPA & ORM:
+      - Index: JPA & ORM/index.md
+
+  - 데이터베이스:
+      - Index: 데이터베이스/index.md
+
+  - 보안:
+      - Index: 보안/index.md
+
+  - 테스팅:
+      - Index: 테스팅/index.md
+
+  - 로깅:
+      - Index: 로깅/index.md
+
+  - 인프라 & DevOps:
+      - Index: 인프라 & DevOps/index.md
+
+  - 아키텍처 & 설계:
+      - Index: 아키텍처 & 설계/index.md
+
+  - 성능 & 최적화:
+      - Index: 성능 & 최적화/index.md
