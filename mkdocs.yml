@@ -1,0 +1,16 @@
+site_name: VivaWiki
+site_description: 개인 백엔드 학습 위키
+site_url: https://vivatubeh.github.io/VivaWiki/
+
+theme:
+  name: material
+  language: ko
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+plugins:
+  - search
