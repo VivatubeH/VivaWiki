@@ -15,56 +15,74 @@ theme:
 plugins:
   - search
 
+
 nav:
   - 홈: index.md
 
-  - 네트워크:
-      - Index: 네트워크/index.md
-
-  - 운영체제:
-      - Index: 운영체제/index.md
-
-  - 컴퓨터구조:
-      - Index: 컴퓨터구조/index.md
-
-  - 자료구조 & 알고리즘:
-      - Index: 자료구조 & 알고리즘/index.md
+  - CS 기초:
+      - Index: CS 기초/index.md
+      - 네트워크:
+          - Index: CS 기초/네트워크/index.md
+      - 운영체제:
+          - Index: CS 기초/운영체제/index.md
+      - 컴퓨터구조:
+          - Index: CS 기초/컴퓨터구조/index.md
+      - 자료구조 & 알고리즘:
+          - Index: CS 기초/자료구조 & 알고리즘/index.md
+      - 데이터베이스:
+          - Index: CS 기초/데이터베이스/index.md
+          - SQL:
+              - Index: CS 기초/데이터베이스/SQL/index.md
+          - 설계 & 최적화:
+              - Index: CS 기초/데이터베이스/설계 & 최적화/index.md
+          - 트랜잭션 & 동시성:
+              - Index: CS 기초/데이터베이스/트랜잭션 & 동시성/index.md
 
   - Java:
       - Index: Java/index.md
 
-  - 프론트엔드:
-      - Index: 프론트엔드/index.md
+  - Spring:
+      - Index: Spring/index.md
+      - Spring 이론:
+          - Index: Spring/Spring 이론/index.md
+      - Spring 구현:
+          - Index: Spring/Spring 구현/index.md
+      - JPA & ORM:
+          - Index: Spring/JPA & ORM/index.md
+      - 보안:
+          - Index: Spring/보안/index.md
+      - 테스팅:
+          - Index: Spring/테스팅/index.md
+      - 로깅:
+          - Index: Spring/로깅/index.md
 
-  - 개발 도구:
-      - Index: 개발 도구/index.md
+  - 화면구현:
+      - Index: 화면구현/index.md
+      - 프론트엔드:
+          - Index: 화면구현/프론트엔드/index.md
+          - HTML:
+              - Index: 화면구현/프론트엔드/HTML/index.md
+          - CSS:
+              - Index: 화면구현/프론트엔드/CSS/index.md
+          - JavaScript:
+              - Index: 화면구현/프론트엔드/JavaScript/index.md
+          - 비동기 처리:
+              - Index: 화면구현/프론트엔드/비동기 처리/index.md
+          - 서버 템플릿 엔진:
+              - Index: 화면구현/프론트엔드/서버 템플릿 엔진/index.md
+          - 프론트엔드 라이브러리:
+              - Index: 화면구현/프론트엔드/프론트엔드 라이브러리/index.md
 
-  - Spring 이론:
-      - Index: Spring 이론/index.md
+  - 개발도구:
+      - Index: 개발도구/index.md
+      - 버전 관리 Git & Github:
+          - Index: 개발도구/버전 관리 Git & Github/index.md
+      - 빌드 도구:
+          - Index: 개발도구/빌드 도구/index.md
+      - 인프라 & DevOps:
+          - Index: 개발도구/인프라 & DevOps/index.md
+      - IntelliJ:
+          - Index: 개발도구/IntelliJ/index.md
 
-  - Spring 구현:
-      - Index: Spring 구현/index.md
-
-  - JPA & ORM:
-      - Index: JPA & ORM/index.md
-
-  - 데이터베이스:
-      - Index: 데이터베이스/index.md
-
-  - 보안:
-      - Index: 보안/index.md
-
-  - 테스팅:
-      - Index: 테스팅/index.md
-
-  - 로깅:
-      - Index: 로깅/index.md
-
-  - 인프라 & DevOps:
-      - Index: 인프라 & DevOps/index.md
-
-  - 아키텍처 & 설계:
-      - Index: 아키텍처 & 설계/index.md
-
-  - 성능 & 최적화:
-      - Index: 성능 & 최적화/index.md
+  - 아키텍처:
+      - Index: 아키텍처/index.md
