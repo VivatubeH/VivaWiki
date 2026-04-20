@@ -56,22 +56,20 @@ nav:
       - 로깅:
           - Index: Spring/로깅/index.md
 
-  - 화면구현:
-      - Index: 화면구현/index.md
-      - 프론트엔드:
-          - Index: 화면구현/프론트엔드/index.md
-          - HTML:
-              - Index: 화면구현/프론트엔드/HTML/index.md
-          - CSS:
-              - Index: 화면구현/프론트엔드/CSS/index.md
-          - JavaScript:
-              - Index: 화면구현/프론트엔드/JavaScript/index.md
-          - 비동기 처리:
-              - Index: 화면구현/프론트엔드/비동기 처리/index.md
-          - 서버 템플릿 엔진:
-              - Index: 화면구현/프론트엔드/서버 템플릿 엔진/index.md
-          - 프론트엔드 라이브러리:
-              - Index: 화면구현/프론트엔드/프론트엔드 라이브러리/index.md
+  - 프론트엔드:
+      - Index: 프론트엔드/index.md
+      - HTML:
+          - Index: 프론트엔드/HTML/index.md
+      - CSS:
+          - Index: 프론트엔드/CSS/index.md
+      - JavaScript:
+          - Index: 프론트엔드/JavaScript/index.md
+      - 비동기 처리:
+          - Index: 프론트엔드/비동기 처리/index.md
+      - 서버 템플릿 엔진:
+          - Index: 프론트엔드/서버 템플릿 엔진/index.md
+      - 프론트엔드 라이브러리:
+          - Index: 프론트엔드/프론트엔드 라이브러리/index.md
 
   - 개발도구:
       - Index: 개발도구/index.md
@@ -85,4 +83,4 @@ nav:
           - Index: 개발도구/IntelliJ/index.md
 
   - 아키텍처 & 설계:
-      - Index: 아키텍처/index.md
+      - Index: 아키텍처 & 설계/index.md
