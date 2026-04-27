@@ -28,11 +28,24 @@
 ```
 feature/* → develop → release/* → main
                                       ↑
-                                   hotfix/*
+                              main → hotfix/* → main
+                                             ↘ develop
 ```
 
 > `develop`은 테스트 브랜치가 아니라 다음 배포를 위해 feature들이 모이는 통합 브랜치다.  
 > `release`는 develop에서 분기해서 최종 QA 후 main으로 merge하는 브랜치다.
+
+### hotfix 주의사항
+
+`hotfix`는 운영 중인 `main`에서 분기하기 때문에, 수정 후 **`main`과 `develop` 둘 다에 merge**해야 한다.
+
+```
+main → hotfix/* → main    (운영 반영)
+               ↘ develop  (다음 배포에 누락 방지)
+```
+
+> `main`에만 merge하면 `develop`에는 버그 수정이 없는 상태로 개발이 계속된다.  
+> 나중에 `develop`이 `main`으로 merge될 때 고쳤던 버그가 다시 살아난다.
 
 ---
 
@@ -72,6 +85,11 @@ feature/* → (PR & 코드 리뷰) → main → 즉시 배포
 **Q. Git Flow의 브랜치 5가지와 각각의 역할은?**
 > `main`(운영 배포), `develop`(다음 배포 통합), `feature`(기능 개발),  
 > `release`(배포 전 QA), `hotfix`(긴급 버그 수정).
+
+**Q. hotfix 브랜치를 main에만 merge하면 안 되는 이유는?**
+> main과 develop은 별개로 흘러가는 브랜치이기 때문입니다.  
+> hotfix를 main에만 반영하면 develop에는 버그 수정이 누락된 채로 개발이 계속되고,  
+> 나중에 develop이 main으로 merge될 때 고쳤던 버그가 다시 살아납니다.
 
 **Q. GitHub Flow가 소규모 팀에 적합한 이유는?**
 > 브랜치 구조가 단순하고, CI/CD와 잘 맞아 빠른 수시 배포가 가능하기 때문.  
