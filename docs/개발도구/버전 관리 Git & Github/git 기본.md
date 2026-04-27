@@ -54,6 +54,18 @@ git commit -m "feat: 로그인 기능 추가"
 
 > 커밋 메시지는 `feat:`, `fix:`, `docs:` 같은 prefix를 붙이는 컨벤션이 실무에서 표준처럼 쓰인다.
 
+### git status / git log
+
+```bash
+git status              # 현재 Working Directory / Staging Area 상태 확인
+git log --oneline       # commit 이력 한 줄씩 요약 확인
+```
+
+- `git status`: add 전후, commit 전후에 **"지금 어떤 파일이 어느 영역에 있는지"** 확인할 때 사용한다.
+- `git log --oneline`: push 전에 **내 커밋 이력이 맞는지** 빠르게 확인하는 용도로 자주 쓰인다.
+
+> `add` → `commit` → `git log`로 확인 → `push` 순서가 실무에서 자연스러운 흐름이다.
+
 ### git push / pull
 
 ```bash
@@ -97,8 +109,10 @@ git merge feature/login         # feature/login을 main에 합치기
 ```bash
 git checkout -b feature/login   # 브랜치 생성 & 이동
 # ... 코드 작업 ...
+git status                      # 변경된 파일 확인
 git add .
 git commit -m "feat: 로그인 구현"
+git log --oneline               # 커밋 이력 확인
 git push origin feature/login   # 원격에 push
 # GitHub에서 PR 생성 → 코드 리뷰 → merge
 ```
