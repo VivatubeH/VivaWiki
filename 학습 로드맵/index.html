@@ -1,0 +1,4349 @@
+
+<!doctype html>
+<html lang="ko" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="개인 백엔드 학습 위키">
+      
+      
+      
+        <link rel="canonical" href="https://vivatubeh.github.io/VivaWiki/%ED%95%99%EC%8A%B5%20%EB%A1%9C%EB%93%9C%EB%A7%B5/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>백엔드 개발자 학습 로드맵 - VivaWiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,300i,400,400i,700,700i%7CJetBrains+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Noto Sans KR";--md-code-font:"JetBrains Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          콘텐츠로 이동
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="상단/헤더">
+    <a href=".." title="VivaWiki" class="md-header__button md-logo" aria-label="VivaWiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            VivaWiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              백엔드 개발자 학습 로드맵
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="검색" placeholder="검색" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="검색">
+        
+        <button type="reset" class="md-search__icon md-icon" title="지우기" aria-label="지우기" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            검색 초기화
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="탭" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  홈
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../CS%20%EA%B8%B0%EC%B4%88/" class="md-tabs__link">
+          
+  
+  
+  CS 기초
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Java/" class="md-tabs__link">
+          
+  
+  
+  Java
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Spring/" class="md-tabs__link">
+          
+  
+  
+  Spring
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C/" class="md-tabs__link">
+          
+  
+  
+  프론트엔드
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../%EA%B0%9C%EB%B0%9C%EB%8F%84%EA%B5%AC/" class="md-tabs__link">
+          
+  
+  
+  개발도구
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%20%26%20%EC%84%A4%EA%B3%84/" class="md-tabs__link">
+          
+  
+  
+  아키텍처 & 설계
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="네비게이션" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="VivaWiki" class="md-nav__button md-logo" aria-label="VivaWiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    VivaWiki
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    홈
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CS 기초
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    CS 기초
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS%20%EA%B8%B0%EC%B4%88/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    네트워크
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    네트워크
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS%20%EA%B8%B0%EC%B4%88/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    운영체제
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    운영체제
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS%20%EA%B8%B0%EC%B4%88/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS%20%EA%B8%B0%EC%B4%88/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%EC%9D%98%20%EC%82%AC%EC%9A%A9%EC%9E%90%20%EB%AA%A8%EB%93%9C%20vs%20%EC%BB%A4%EB%84%90%20%EB%AA%A8%EB%93%9C/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    사용자 모드 vs 커널 모드
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    컴퓨터구조
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    컴퓨터구조
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS%20%EA%B8%B0%EC%B4%88/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_5" id="__nav_2_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    자료구조 & 알고리즘
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    자료구조 & 알고리즘
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS%20%EA%B8%B0%EC%B4%88/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%20%26%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_6" id="__nav_2_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    데이터베이스
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    데이터베이스
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS%20%EA%B8%B0%EC%B4%88/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_6_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_6_2" id="__nav_2_6_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SQL
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_6_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_6_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    SQL
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS%20%EA%B8%B0%EC%B4%88/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4/SQL/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_6_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_6_3" id="__nav_2_6_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    설계 & 최적화
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_6_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_6_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    설계 & 최적화
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS%20%EA%B8%B0%EC%B4%88/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4/%EC%84%A4%EA%B3%84%20%26%20%EC%B5%9C%EC%A0%81%ED%99%94/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_6_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_6_4" id="__nav_2_6_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    트랜잭션 & 동시성
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_6_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_6_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    트랜잭션 & 동시성
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS%20%EA%B8%B0%EC%B4%88/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4/%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98%20%26%20%EB%8F%99%EC%8B%9C%EC%84%B1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Java
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Java
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Java/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Spring
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Spring
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Spring/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Spring 이론
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Spring 이론
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Spring/Spring%20%EC%9D%B4%EB%A1%A0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_3" id="__nav_4_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Spring 구현
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Spring 구현
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Spring/Spring%20%EA%B5%AC%ED%98%84/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_4" id="__nav_4_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    JPA & ORM
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    JPA & ORM
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Spring/JPA%20%26%20ORM/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_5" id="__nav_4_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    보안
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    보안
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Spring/%EB%B3%B4%EC%95%88/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_6" id="__nav_4_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    테스팅
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    테스팅
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Spring/%ED%85%8C%EC%8A%A4%ED%8C%85/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_7" id="__nav_4_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    로깅
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    로깅
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Spring/%EB%A1%9C%EA%B9%85/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    프론트엔드
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    프론트엔드
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2" id="__nav_5_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    HTML
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    HTML
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C/HTML/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_3" id="__nav_5_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CSS
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    CSS
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C/CSS/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_4" id="__nav_5_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    JavaScript
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    JavaScript
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C/JavaScript/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_5" id="__nav_5_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    비동기 처리
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    비동기 처리
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C/%EB%B9%84%EB%8F%99%EA%B8%B0%20%EC%B2%98%EB%A6%AC/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_6" id="__nav_5_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    서버 템플릿 엔진
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    서버 템플릿 엔진
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C/%EC%84%9C%EB%B2%84%20%ED%85%9C%ED%94%8C%EB%A6%BF%20%EC%97%94%EC%A7%84/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_7" id="__nav_5_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    프론트엔드 라이브러리
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    프론트엔드 라이브러리
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    개발도구
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    개발도구
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%EA%B0%9C%EB%B0%9C%EB%8F%84%EA%B5%AC/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    버전 관리 Git & Github
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    버전 관리 Git & Github
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%EA%B0%9C%EB%B0%9C%EB%8F%84%EA%B5%AC/%EB%B2%84%EC%A0%84%20%EA%B4%80%EB%A6%AC%20Git%20%26%20Github/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_3" id="__nav_6_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    빌드 도구
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    빌드 도구
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%EA%B0%9C%EB%B0%9C%EB%8F%84%EA%B5%AC/%EB%B9%8C%EB%93%9C%20%EB%8F%84%EA%B5%AC/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_4" id="__nav_6_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    인프라 & DevOps
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    인프라 & DevOps
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%EA%B0%9C%EB%B0%9C%EB%8F%84%EA%B5%AC/%EC%9D%B8%ED%94%84%EB%9D%BC%20%26%20DevOps/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_5" id="__nav_6_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IntelliJ
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    IntelliJ
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../개발도구/IntelliJ/index.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    아키텍처 & 설계
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    아키텍처 & 설계
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%20%26%20%EC%84%A4%EA%B3%84/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="목차">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      목차
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. 네트워크
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. 네트워크">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1-1. 네트워크 이론 기초
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1-2. 웹 통신 이론 &amp; 실무 연결
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1-3. 웹 인프라 &amp; 실무 연결
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. 운영체제
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. 운영체제">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#2-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2-1. 운영체제 이론
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2-2. 실무 연결
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-3-linux" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2-3. Linux / 관찰 도구
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. 컴퓨터 구조
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. 컴퓨터 구조">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#3-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3-1. 이론
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3-2. 실무 연결
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. 자료구조 &amp; 알고리즘
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. 자료구조 &amp; 알고리즘">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#4-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4-1. 자료구조
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4-2. 알고리즘
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-java" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Java 핵심
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Java 핵심">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#5-1-jvm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5-1. 기초 &amp; JVM
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5-2. 객체지향
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5-3. 타입 &amp; 컬렉션
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5-4. 함수형 &amp; 스트림
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5-5. 동시성
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5-6. 기타 실무 필수
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. 화면 구현 기초
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. 화면 구현 기초">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#6-1-html" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6-1. HTML
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-2-css" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6-2. CSS
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-3-javascript" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6-3. JavaScript
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6-4. 비동기 처리
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6-5. 서버 템플릿 엔진
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6-6. 프론트엔드 라이브러리
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. 개발 도구
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7. 개발 도구">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#7-1-git-github" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7-1. 버전 관리 Git &amp; Github
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7-2. 빌드 도구
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-3-intellij" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7-3. IntelliJ
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-spring" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Spring 생태계 — 이론
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8. Spring 생태계 — 이론">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#8-1-spring-core" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8-1. Spring Core
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-2-spring-mvc" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8-2. Spring MVC
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-3-spring-boot" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8-3. Spring Boot
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-spring" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Spring 생태계 — 구현
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="9. Spring 생태계 — 구현">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#9-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9-1. 인증 &amp; 보안
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-2-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9-2. API 개발
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9-3. 고급 구현
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-jpa-orm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10. JPA / ORM
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11. 데이터베이스
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="11. 데이터베이스">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11-1. 데이터베이스 이론
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11-2. 실무 연결
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11-3. 도구 / 관찰법
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        12. 보안
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13. 테스팅
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        14. 로깅
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#15-devops" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        15. 인프라 &amp; DevOps
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="15. 인프라 &amp; DevOps">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#15-1-docker" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        15-1. Docker
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15-2-aws" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        15-2. AWS
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#15-3-cicd" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        15-3. CI/CD
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#16" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        16. 아키텍처 &amp; 설계
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#17" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        17. 성능 &amp; 최적화
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📌 면접 빈출 주제 별도 정리
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="_1">백엔드 개발자 학습 로드맵<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
+<blockquote>
+<p>목표: 기본에 충실하자.
+사용법: 학습 완료 시 <code>- [ ]</code> → <code>- [x]</code> 로 변경
+틈틈히 수정하기</p>
+</blockquote>
+<hr />
+<h2 id="1">1. 네트워크<a class="headerlink" href="#1" title="Permanent link">&para;</a></h2>
+<h3 id="1-1">1-1. 네트워크 이론 기초<a class="headerlink" href="#1-1" title="Permanent link">&para;</a></h3>
+<ul>
+<li>[X] OSI 7계층 vs TCP/IP 4계층</li>
+<li>[ ] 캡슐화 / 역캡슐화</li>
+<li>[ ] TCP vs UDP 차이</li>
+<li>[ ] 3-way handshake (연결 수립)</li>
+<li>[ ] 4-way handshake (연결 종료)</li>
+<li>[ ] 흐름 제어와 혼잡 제어 기초</li>
+<li>[ ] IP 주소 &amp; 서브넷 기초</li>
+<li>[ ] 포트 번호 개념</li>
+<li>[ ] ARP 동작 원리</li>
+<li>[ ] 라우터 / 스위치 역할</li>
+<li>[ ] NAT 개념</li>
+<li>[ ] DNS 동작 원리 (도메인 → IP 변환 흐름)</li>
+<li>[ ] 패킷이 목적지까지 전달되는 과정</li>
+</ul>
+<h3 id="1-2">1-2. 웹 통신 이론 &amp; 실무 연결<a class="headerlink" href="#1-2" title="Permanent link">&para;</a></h3>
+<ul>
+<li>[ ] HTTP 메서드 (GET, POST, PUT, PATCH, DELETE) 차이와 멱등성</li>
+<li>[ ] HTTP 상태코드 (2xx, 3xx, 4xx, 5xx) 의미와 대표 코드</li>
+<li>[ ] HTTP 헤더 구조 (Content-Type, Authorization, Cache-Control 등)</li>
+<li>[ ] HTTPS 동작 원리 (TLS handshake, 인증서)</li>
+<li>[ ] HTTP/1.1 vs HTTP/2 차이 (multiplexing, 헤더 압축)</li>
+<li>[ ] 쿠키 vs 세션 vs 토큰 비교</li>
+</ul>
+<h3 id="1-3">1-3. 웹 인프라 &amp; 실무 연결<a class="headerlink" href="#1-3" title="Permanent link">&para;</a></h3>
+<ul>
+<li>[ ] DNS 동작 원리 (도메인 → IP 변환 흐름)</li>
+<li>[ ] 로드밸런서 개념 (L4 vs L7)</li>
+<li>[ ] 프록시 vs 리버스 프록시</li>
+<li>[ ] CDN 개념</li>
+<li>[ ] 웹소켓 vs HTTP 폴링 차이</li>
+<li>[ ] REST API 설계 원칙</li>
+<li>[ ] gRPC 기초</li>
+</ul>
+<hr />
+<h2 id="2">2. 운영체제<a class="headerlink" href="#2" title="Permanent link">&para;</a></h2>
+<h3 id="2-1">2-1. 운영체제 이론<a class="headerlink" href="#2-1" title="Permanent link">&para;</a></h3>
+<ul>
+<li>[ ] 사용자 모드 vs 커널 모드</li>
+<li>[ ] 시스템 콜 개념</li>
+<li>[ ] 인터럽트 개념</li>
+<li>[ ] 프로세스 vs 스레드 차이</li>
+<li>[ ] 멀티프로세스 vs 멀티스레드</li>
+<li>[ ] 컨텍스트 스위칭 개념</li>
+<li>[ ] PCB (Process Control Block) 기초</li>
+<li>[ ] Race condition 개념</li>
+<li>[ ] 뮤텍스 / 세마포어 / 모니터</li>
+<li>[ ] 교착상태 (Deadlock) 4가지 조건</li>
+<li>[ ] Deadlock 해결/회피 방법</li>
+<li>[ ] 기아 상태 (Starvation) 개념</li>
+<li>[ ] CPU 스케줄링 기초 (FCFS, Round Robin, 우선순위)</li>
+<li>[ ] 메모리 구조 (스택 / 힙 / 코드 / 데이터 영역)</li>
+<li>[ ] 가상 메모리 &amp; 페이징 기초</li>
+<li>[ ] 페이지 교체 알고리즘 기초</li>
+<li>[ ] 스왑 영역 개념</li>
+<li>[ ] 내부 단편화 / 외부 단편화</li>
+<li>[ ] 파일 시스템 기초</li>
+</ul>
+<h3 id="2-2">2-2. 실무 연결<a class="headerlink" href="#2-2" title="Permanent link">&para;</a></h3>
+<ul>
+<li>[ ] synchronized 키워드 동작 방식</li>
+<li>[ ] volatile 키워드 역할</li>
+<li>[ ] 멀티스레드 서버에서 Race condition이 실제로 생기는 이유</li>
+<li>[ ] 컨텍스트 스위칭 비용이 성능에 미치는 영향</li>
+<li>[ ] 프로세스와 스레드 선택 기준</li>
+</ul>
+<h3 id="2-3-linux">2-3. Linux / 관찰 도구<a class="headerlink" href="#2-3-linux" title="Permanent link">&para;</a></h3>
+<ul>
+<li>[ ] 기본 명령어 (ls, cd, cp, mv, rm, cat, grep, find)</li>
+<li>[ ] 권한 관리 (chmod, chown, 숫자 표기법)</li>
+<li>[ ] 프로세스 관리 (ps, kill, top, htop)</li>
+<li>[ ] 로그 확인 (tail -f, journalctl)</li>
+<li>[ ] 네트워크 명령어 (netstat, curl, ping)</li>
+</ul>
+<hr />
+<h2 id="3">3. 컴퓨터 구조<a class="headerlink" href="#3" title="Permanent link">&para;</a></h2>
+<h3 id="3-1">3-1. 이론<a class="headerlink" href="#3-1" title="Permanent link">&para;</a></h3>
+<ul>
+<li>[ ] CPU 구조 기초 (ALU, CU, 레지스터, 클럭)</li>
+<li>[ ] 명령어 실행 사이클 (Fetch → Decode → Execute)</li>
+<li>[ ] 캐시 메모리 계층 (L1/L2/L3) &amp; 지역성 원리</li>
+<li>[ ] 메모리 계층 구조 (레지스터 → 캐시 → RAM → 디스크)</li>
+<li>[ ] 버스 구조 기초</li>
+<li>[ ] 인터럽트와 CPU 처리 흐름</li>
+<li>[ ] 파이프라이닝 기초</li>
+<li>[ ] ISA와 기계어 / 어셈블리 관점 기초</li>
+<li>[ ] 빅엔디안 vs 리틀엔디안</li>
+<li>[ ] 비트 &amp; 바이트 연산 기초 (AND, OR, XOR, shift)</li>
+</ul>
+<h3 id="3-2">3-2. 실무 연결<a class="headerlink" href="#3-2" title="Permanent link">&para;</a></h3>
+<ul>
+<li>[ ] CPU와 메모리 속도 차이가 프로그램 성능에 미치는 영향</li>
+<li>[ ] 캐시 미스가 왜 성능에 큰 영향을 주는지</li>
+<li>[ ] 배열 순회와 지역성 (Locality)</li>
+<li>[ ] 캐시 친화적 코드가 왜 빠른지</li>
+<li>[ ] 비트 연산이 실제 코드에서 쓰이는 경우</li>
+</ul>
+<hr />
+<h2 id="4">4. 자료구조 &amp; 알고리즘<a class="headerlink" href="#4" title="Permanent link">&para;</a></h2>
+<h3 id="4-1">4-1. 자료구조<a class="headerlink" href="#4-1" title="Permanent link">&para;</a></h3>
+<ul>
+<li>[ ] Array vs LinkedList</li>
+<li>[ ] Stack &amp; Queue</li>
+<li>[ ] Tree (이진 트리, BST, 순회)</li>
+<li>[ ] Heap (우선순위 큐)</li>
+<li>[ ] Hash Map 내부 동작 (해시 충돌 해결)</li>
+<li>[ ] Graph (인접 행렬 vs 인접 리스트)</li>
+</ul>
+<h3 id="4-2">4-2. 알고리즘<a class="headerlink" href="#4-2" title="Permanent link">&para;</a></h3>
+<ul>
+<li>[ ] 시간/공간 복잡도 (Big-O)</li>
+<li>[ ] 정렬 (버블, 선택, 삽입, 합병, 퀵)</li>
+<li>[ ] 이진 탐색</li>
+<li>[ ] DFS &amp; BFS</li>
+<li>[ ] 동적 프로그래밍 (DP) 기초</li>
+<li>[ ] 그리디 기초</li>
+<li>[ ] 재귀 &amp; 백트래킹 기초</li>
+</ul>
+<hr />
+<h2 id="5-java">5. Java 핵심<a class="headerlink" href="#5-java" title="Permanent link">&para;</a></h2>
+<h3 id="5-1-jvm">5-1. 기초 &amp; JVM<a class="headerlink" href="#5-1-jvm" title="Permanent link">&para;</a></h3>
+<ul>
+<li>[ ] JDK / JRE / JVM 구조 차이</li>
+<li>[ ] 컴파일 → 바이트코드 → 실행 흐름</li>
+<li>[ ] Java 메모리 모델 (Stack / Heap / Method Area)</li>
+<li>[ ] GC 동작 원리 (Minor GC, Major GC, G1 GC)</li>
+<li>[ ] 기본 자료형 vs 참조형 (박싱/언박싱)</li>
+<li>[ ] 접근 제어자 (public, protected, private, default)  ← 추가</li>
+</ul>
+<h3 id="5-2">5-2. 객체지향<a class="headerlink" href="#5-2" title="Permanent link">&para;</a></h3>
+<ul>
+<li>[ ] OOP 4원칙 (캡슐화, 상속, 다형성, 추상화)</li>
+<li>[ ] 인터페이스 vs 추상클래스 차이와 사용 기준</li>
+<li>[ ] SOLID 원칙 5가지 설명 및 예시</li>
+<li>[ ] 불변 객체 설계 &amp; final 활용</li>
+<li>[ ] static 키워드 올바른 사용</li>
+<li>[ ] 예외 처리 기초 (try-catch-finally, checked/unchecked exception, throw/throws, 커스텀 예외)  ← 추가</li>
+<li>[ ] 예외 계층 구조 (Exception, RuntimeException)  ← 추가</li>
+</ul>
+<h3 id="5-3">5-3. 타입 &amp; 컬렉션<a class="headerlink" href="#5-3" title="Permanent link">&para;</a></h3>
+<ul>
+<li>[ ] == vs equals() 차이  ← 추가</li>
+<li>[ ] String vs StringBuilder vs StringBuffer</li>
+<li>[ ] equals() &amp; hashCode() 재정의 원칙</li>
+<li>[ ] 제네릭 (Generic) 개념 &amp; 와일드카드</li>
+<li>[ ] ArrayList vs LinkedList vs HashMap 내부 동작</li>
+<li>[ ] Comparable vs Comparator</li>
+<li>[ ] enum 활용법 (상수 대체, 메서드 추가)</li>
+</ul>
+<h3 id="5-4">5-4. 함수형 &amp; 스트림<a class="headerlink" href="#5-4" title="Permanent link">&para;</a></h3>
+<ul>
+<li>[ ] 람다 표현식 문법</li>
+<li>[ ] 함수형 인터페이스 (Function, Predicate, Consumer, Supplier)</li>
+<li>[ ] 스트림 API (filter, map, reduce, collect)</li>
+<li>[ ] Optional 올바른 사용법</li>
+<li>[ ] 메서드 참조 (::)</li>
+</ul>
+<h3 id="5-5">5-5. 동시성<a class="headerlink" href="#5-5" title="Permanent link">&para;</a></h3>
+<ul>
+<li>[ ] Thread &amp; Runnable 기본</li>
+<li>[ ] synchronized 블록 vs 메서드</li>
+<li>[ ] volatile 키워드</li>
+<li>[ ] ExecutorService &amp; ThreadPool 사용법</li>
+<li>[ ] CompletableFuture 기초</li>
+</ul>
+<h3 id="5-6">5-6. 기타 실무 필수<a class="headerlink" href="#5-6" title="Permanent link">&para;</a></h3>
+<ul>
+<li>[ ] 어노테이션 개념 &amp; 커스텀 어노테이션</li>
+<li>[ ] 리플렉션 기초 (Spring 내부 동작 이해용)</li>
+<li>[ ] try-with-resources (AutoCloseable)</li>
+<li>[ ] var (Java 10+), record (Java 16+)</li>
+<li>[ ] Lombok 주요 어노테이션 (@Getter, @Builder, @RequiredArgsConstructor)</li>
+</ul>
+<hr />
+<h2 id="6">6. 화면 구현 기초<a class="headerlink" href="#6" title="Permanent link">&para;</a></h2>
+<h3 id="6-1-html">6-1. HTML<a class="headerlink" href="#6-1-html" title="Permanent link">&para;</a></h3>
+<ul>
+<li>[ ] HTML 시맨틱 태그 (header, main, section, article 등)</li>
+<li>[ ] 폼 태그 기본 (form, input, textarea, button, select)</li>
+<li>[ ] 링크와 목록 태그 사용법</li>
+<li>[ ] 테이블 구조 기초</li>
+<li>[ ] 화면 구조를 시맨틱하게 나누는 방법</li>
+</ul>
+<h3 id="6-2-css">6-2. CSS<a class="headerlink" href="#6-2-css" title="Permanent link">&para;</a></h3>
+<ul>
+<li>[ ] CSS 기본 (선택자, box model, flexbox, position)</li>
+<li>[ ] display 속성 (block, inline, inline-block)</li>
+<li>[ ] margin / padding 정리</li>
+<li>[ ] 반응형 레이아웃 기초</li>
+<li>[ ] 자주 쓰는 레이아웃 패턴 정리</li>
+</ul>
+<h3 id="6-3-javascript">6-3. JavaScript<a class="headerlink" href="#6-3-javascript" title="Permanent link">&para;</a></h3>
+<ul>
+<li>[ ] JavaScript 기본 문법 (ES6+: let/const, 화살표 함수, 구조분해)</li>
+<li>[ ] 조건문 / 반복문</li>
+<li>[ ] 배열 / 객체 기초</li>
+<li>[ ] DOM 조작</li>
+<li>[ ] 이벤트 처리</li>
+</ul>
+<h3 id="6-4">6-4. 비동기 처리<a class="headerlink" href="#6-4" title="Permanent link">&para;</a></h3>
+<ul>
+<li>[ ] AJAX 개념</li>
+<li>[ ] Fetch API (비동기 요청)</li>
+<li>[ ] Promise 기초</li>
+<li>[ ] async / await 기초</li>
+<li>[ ] JSON 요청/응답 처리</li>
+</ul>
+<h3 id="6-5">6-5. 서버 템플릿 엔진<a class="headerlink" href="#6-5" title="Permanent link">&para;</a></h3>
+<ul>
+<li>[ ] Thymeleaf 기본 문법 (th:text, th:if, th:each, th:href)</li>
+<li>[ ] Thymeleaf 폼 처리 기초</li>
+<li>[ ] Thymeleaf 레이아웃 분리 기초</li>
+<li>[ ] JSP &amp; JSTL 기본</li>
+</ul>
+<h3 id="6-6">6-6. 프론트엔드 라이브러리<a class="headerlink" href="#6-6" title="Permanent link">&para;</a></h3>
+<ul>
+<li>[ ] jQuery 기본 사용법 ($, 이벤트, $.ajax)</li>
+<li>[ ] Bootstrap 기본 사용법 (그리드 시스템, 컴포넌트)</li>
+</ul>
+<hr />
+<h2 id="7">7. 개발 도구<a class="headerlink" href="#7" title="Permanent link">&para;</a></h2>
+<h3 id="7-1-git-github">7-1. 버전 관리 Git &amp; Github<a class="headerlink" href="#7-1-git-github" title="Permanent link">&para;</a></h3>
+<ul>
+<li>[ ] Git 기본 (add, commit, push, pull, branch, merge)</li>
+<li>[ ] Git 브랜치 전략 (git-flow, GitHub flow)</li>
+<li>[ ] 충돌 해결 (merge conflict)</li>
+<li>[ ] GitHub PR &amp; 코드리뷰 흐름</li>
+<li>[ ] SSH 키 생성 및 GitHub SSH 연결</li>
+<li>[ ] GitHub Pages 기본 배포 구조 이해</li>
+</ul>
+<h3 id="7-2">7-2. 빌드 도구<a class="headerlink" href="#7-2" title="Permanent link">&para;</a></h3>
+<ul>
+<li>[ ] Gradle 빌드 스크립트 기본 (dependencies, task)</li>
+<li>[ ] Maven 기본 (pom.xml 구조)</li>
+</ul>
+<h3 id="7-3-intellij">7-3. IntelliJ<a class="headerlink" href="#7-3-intellij" title="Permanent link">&para;</a></h3>
+<ul>
+<li>[ ] IntelliJ 주요 단축키 &amp; 디버깅</li>
+<li>[ ] IntelliJ에서 Gradle 프로젝트를 연결하고 다시 인식시키는 방법</li>
+</ul>
+<hr />
+<h2 id="8-spring">8. Spring 생태계 — 이론<a class="headerlink" href="#8-spring" title="Permanent link">&para;</a></h2>
+<h3 id="8-1-spring-core">8-1. Spring Core<a class="headerlink" href="#8-1-spring-core" title="Permanent link">&para;</a></h3>
+<ul>
+<li>[ ] IoC (제어의 역전) 개념</li>
+<li>[ ] DI (의존성 주입) 3가지 방법 (생성자, 세터, 필드) &amp; 생성자 주입 권장 이유</li>
+<li>[ ] Bean 등록 방법 (@Component, @Bean, @Configuration)</li>
+<li>[ ] Bean 생명주기 (초기화, 소멸 콜백)</li>
+<li>[ ] Bean 스코프 (singleton, prototype, request, session)</li>
+<li>[ ] AOP 개념 (횡단 관심사 분리)</li>
+<li>[ ] AOP 프록시 동작 원리 (JDK 동적 프록시 vs CGLIB)</li>
+<li>[ ] @Transactional 동작 원리</li>
+<li>[ ] @Transactional 주의사항 (self-invocation, checked exception)</li>
+<li>[ ] 트랜잭션 전파 수준 (REQUIRED, REQUIRES_NEW 등)</li>
+</ul>
+<h3 id="8-2-spring-mvc">8-2. Spring MVC<a class="headerlink" href="#8-2-spring-mvc" title="Permanent link">&para;</a></h3>
+<ul>
+<li>[ ] DispatcherServlet 요청 처리 흐름</li>
+<li>[ ] @Controller vs @RestController</li>
+<li>[ ] @RequestMapping, @GetMapping 등 매핑 어노테이션</li>
+<li>[ ] @RequestBody, @ResponseBody, @PathVariable, @RequestParam</li>
+<li>[ ] 필터 vs 인터셉터 vs AOP 차이와 사용 시점</li>
+<li>[ ] HandlerMethodArgumentResolver 기초</li>
+</ul>
+<h3 id="8-3-spring-boot">8-3. Spring Boot<a class="headerlink" href="#8-3-spring-boot" title="Permanent link">&para;</a></h3>
+<ul>
+<li>[ ] Spring Boot 자동 설정 원리 (@EnableAutoConfiguration)</li>
+<li>[ ] application.yml / application.properties 설정 구조</li>
+<li>[ ] 프로파일 분리 (dev / prod)</li>
+<li>[ ] @ConfigurationProperties 사용법</li>
+<li>[ ] Actuator 기초 (health, info 엔드포인트)</li>
+<li>[ ] DataSource 자동 설정과 DB 설정 누락 시 발생하는 실행 오류 이해</li>
+</ul>
+<hr />
+<h2 id="9-spring">9. Spring 생태계 — 구현<a class="headerlink" href="#9-spring" title="Permanent link">&para;</a></h2>
+<h3 id="9-1">9-1. 인증 &amp; 보안<a class="headerlink" href="#9-1" title="Permanent link">&para;</a></h3>
+<ul>
+<li>[ ] Spring Security 필터 체인 구조 이해</li>
+<li>[ ] JWT 발급 &amp; 검증 구현 (Access Token / Refresh Token)</li>
+<li>[ ] Spring Security + JWT 통합 구현</li>
+<li>[ ] OAuth2 소셜 로그인 기초 (Google, Kakao)</li>
+<li>[ ] 비밀번호 암호화 (BCryptPasswordEncoder)</li>
+<li>[ ] CORS 설정 방법</li>
+<li>[ ] Spring Security 기본 로그인 동작과 기본 계정(user) 확인</li>
+</ul>
+<h3 id="9-2-api">9-2. API 개발<a class="headerlink" href="#9-2-api" title="Permanent link">&para;</a></h3>
+<ul>
+<li>[ ] 회원가입 / 로그인 API 구현</li>
+<li>[ ] 게시판 CRUD API 구현 (JPA + REST)</li>
+<li>[ ] 댓글 기능 구현 (연관관계 매핑 활용)</li>
+<li>[ ] 파일 업로드 구현 (Multipart + S3)</li>
+<li>[ ] 페이징 &amp; 정렬 처리 (Pageable, Sort)</li>
+<li>[ ] 검색 기능 구현 (QueryDSL 동적 쿼리)</li>
+<li>[ ] 전역 예외 처리 (@ControllerAdvice, @ExceptionHandler)</li>
+<li>[ ] 입력값 검증 (@Valid, @Validated, ConstraintValidator)</li>
+<li>[ ] DTO / VO / Entity 분리 설계</li>
+<li>[ ] Swagger / OpenAPI 문서화</li>
+</ul>
+<h3 id="9-3">9-3. 고급 구현<a class="headerlink" href="#9-3" title="Permanent link">&para;</a></h3>
+<ul>
+<li>[ ] 이메일 인증 구현 (JavaMailSender + Redis TTL)</li>
+<li>[ ] Redis 캐싱 구현 (@Cacheable, @CacheEvict)</li>
+<li>[ ] 스케줄러 구현 (@Scheduled)</li>
+<li>[ ] 이벤트 기반 처리 (@EventListener, ApplicationEventPublisher)</li>
+<li>[ ] WebSocket 기초 구현 (실시간 알림)</li>
+</ul>
+<hr />
+<h2 id="10-jpa-orm">10. JPA / ORM<a class="headerlink" href="#10-jpa-orm" title="Permanent link">&para;</a></h2>
+<ul>
+<li>[ ] 영속성 컨텍스트 개념 &amp; 1차 캐시</li>
+<li>[ ] 엔티티 생명주기 (비영속, 영속, 준영속, 삭제)</li>
+<li>[ ] 변경 감지 (dirty checking)</li>
+<li>[ ] 지연로딩 vs 즉시로딩</li>
+<li>[ ] N+1 문제 원인 &amp; 해결 (fetch join, @EntityGraph, batch size)</li>
+<li>[ ] 연관관계 매핑 (@OneToMany, @ManyToOne, @ManyToMany)</li>
+<li>[ ] 양방향 연관관계 &amp; 연관관계 편의 메서드</li>
+<li>[ ] @Inheritance 상속 전략</li>
+<li>[ ] JPQL 기본 문법</li>
+<li>[ ] 네이티브 쿼리 사용법</li>
+<li>[ ] QueryDSL 기본 설정 &amp; 동적 쿼리 작성</li>
+<li>[ ] 벌크 연산 &amp; @Modifying</li>
+</ul>
+<hr />
+<h2 id="11">11. 데이터베이스<a class="headerlink" href="#11" title="Permanent link">&para;</a></h2>
+<h3 id="11-1">11-1. 데이터베이스 이론<a class="headerlink" href="#11-1" title="Permanent link">&para;</a></h3>
+<ul>
+<li>[ ] 데이터베이스 / RDBMS / 테이블 구조 기초  ← 추가</li>
+<li>[ ] 관계형 모델의 의미</li>
+<li>[ ] 슈퍼키 / 후보키 / 기본키</li>
+<li>[ ] 제약조건 기초 (PK, FK, UNIQUE, NOT NULL)  ← 추가</li>
+<li>[ ] 함수 종속</li>
+<li>[ ] SELECT, INSERT, UPDATE, DELETE 기본</li>
+<li>[ ] JOIN (INNER, LEFT, RIGHT, FULL)</li>
+<li>[ ] GROUP BY, HAVING, ORDER BY</li>
+<li>[ ] 서브쿼리 (스칼라, 인라인 뷰, WHERE 서브쿼리)</li>
+<li>[ ] 윈도우 함수 기초 (ROW_NUMBER, RANK)</li>
+<li>[ ] 트랜잭션 직접 제어 (BEGIN, COMMIT, ROLLBACK)</li>
+<li>[ ] 정규화 1NF ~ 3NF</li>
+<li>[ ] 정규화의 목적과 역정규화가 필요한 상황</li>
+<li>[ ] ERD 설계 및 작성</li>
+<li>[ ] 인덱스 원리 (B-Tree 구조)</li>
+<li>[ ] B-Tree가 왜 인덱스에 적합한지</li>
+<li>[ ] 복합 인덱스 &amp; 선택 기준</li>
+<li>[ ] 커버링 인덱스</li>
+<li>[ ] ACID 속성</li>
+<li>[ ] 트랜잭션 격리 수준 4단계</li>
+<li>[ ] Dirty Read, Non-Repeatable Read, Phantom Read</li>
+<li>[ ] 낙관적 락 vs 비관적 락</li>
+<li>[ ] MVCC</li>
+<li>[ ] 로그 기반 회복 기초</li>
+</ul>
+<h3 id="11-2">11-2. 실무 연결<a class="headerlink" href="#11-2" title="Permanent link">&para;</a></h3>
+<ul>
+<li>[ ] 쿼리 실행 계획 분석 (EXPLAIN)</li>
+<li>[ ] 페이징 최적화 (offset vs cursor 방식)</li>
+<li>[ ] Redis 같은 캐시 계층 개념</li>
+<li>[ ] DB 커넥션 풀 (HikariCP) 설정</li>
+<li>[ ] DB Connection 관련 실무 이슈 (고갈, 누수, 타임아웃)</li>
+<li>[ ] 인덱스가 있어도 쿼리가 느릴 수 있는 이유</li>
+<li>[ ] JOIN 전략이 성능에 미치는 영향</li>
+<li>[ ] 트랜잭션 격리 수준을 실무에서 어떻게 고르는지</li>
+<li>[ ] 커서 페이징을 언제 쓰는지</li>
+</ul>
+<h3 id="11-3">11-3. 도구 / 관찰법<a class="headerlink" href="#11-3" title="Permanent link">&para;</a></h3>
+<ul>
+<li>[ ] EXPLAIN 결과 읽는 법</li>
+<li>[ ] 실제 쿼리 튜닝 사례 정리</li>
+</ul>
+<hr />
+<h2 id="12">12. 보안<a class="headerlink" href="#12" title="Permanent link">&para;</a></h2>
+<ul>
+<li>[ ] HTTPS / TLS 기초</li>
+<li>[ ] CORS 원리 &amp; 설정</li>
+<li>[ ] SQL Injection 공격 원리 &amp; 방어</li>
+<li>[ ] XSS 공격 원리 &amp; 방어</li>
+<li>[ ] CSRF 공격 원리 &amp; 방어</li>
+<li>[ ] JWT 보안 주의사항 (알고리즘, 만료시간, 저장 위치)</li>
+<li>[ ] 비밀번호 해싱 (BCrypt, Salt)</li>
+<li>[ ] 환경변수로 민감 정보 관리 (.env, yml 분리)</li>
+</ul>
+<hr />
+<h2 id="13">13. 테스팅<a class="headerlink" href="#13" title="Permanent link">&para;</a></h2>
+<ul>
+<li>[ ] 테스트 종류 (단위 / 통합 / E2E) 차이</li>
+<li>[ ] JUnit5 기본 어노테이션 (@Test, @BeforeEach, @DisplayName)</li>
+<li>[ ] Mockito 모킹 (@Mock, @InjectMocks, when/thenReturn)</li>
+<li>[ ] @SpringBootTest 통합 테스트</li>
+<li>[ ] @WebMvcTest (컨트롤러 슬라이스 테스트)</li>
+<li>[ ] @DataJpaTest (JPA 슬라이스 테스트)</li>
+<li>[ ] MockMvc 사용법</li>
+<li>[ ] 테스트 커버리지 개념 &amp; JaCoCo 기초</li>
+</ul>
+<hr />
+<h2 id="14">14. 로깅<a class="headerlink" href="#14" title="Permanent link">&para;</a></h2>
+<ul>
+<li>[ ] SLF4J + Logback 구조</li>
+<li>[ ] 로그 레벨 (TRACE, DEBUG, INFO, WARN, ERROR) 전략</li>
+<li>[ ] logback-spring.xml 설정 (파일 출력, 롤링)</li>
+<li>[ ] MDC (요청 추적 로그, traceId)</li>
+<li>[ ] 운영 환경 로그 전략 (에러만 파일 저장 등)</li>
+</ul>
+<hr />
+<h2 id="15-devops">15. 인프라 &amp; DevOps<a class="headerlink" href="#15-devops" title="Permanent link">&para;</a></h2>
+<h3 id="15-1-docker">15-1. Docker<a class="headerlink" href="#15-1-docker" title="Permanent link">&para;</a></h3>
+<ul>
+<li>[ ] 이미지 &amp; 컨테이너 개념</li>
+<li>[ ] Dockerfile 작성 (Spring Boot 앱 이미지화)</li>
+<li>[ ] docker-compose 작성 (앱 + DB + Redis)</li>
+<li>[ ] 볼륨 &amp; 네트워크 설정</li>
+<li>[ ] 컨테이너 로그 확인 &amp; 디버깅</li>
+</ul>
+<h3 id="15-2-aws">15-2. AWS<a class="headerlink" href="#15-2-aws" title="Permanent link">&para;</a></h3>
+<ul>
+<li>[ ] EC2 인스턴스 생성 &amp; SSH 접속</li>
+<li>[ ] RDS 생성 &amp; Spring Boot 연결</li>
+<li>[ ] S3 버킷 생성 &amp; 파일 업로드 연동</li>
+<li>[ ] IAM 역할 &amp; 보안 그룹 기초</li>
+<li>[ ] Elastic IP 설정</li>
+<li>[ ] 도메인 연결 기초 (Route53 또는 외부 도메인)</li>
+</ul>
+<h3 id="15-3-cicd">15-3. CI/CD<a class="headerlink" href="#15-3-cicd" title="Permanent link">&para;</a></h3>
+<ul>
+<li>[ ] CI/CD 개념 (지속 통합 / 지속 배포)</li>
+<li>[ ] GitHub Actions 워크플로우 작성</li>
+<li>[ ] 빌드 → 테스트 → Docker 이미지 빌드 → EC2 배포 자동화</li>
+<li>[ ] Nginx 리버스 프록시 설정 (포트 포워딩)</li>
+<li>[ ] 무중단 배포 기초 (Blue-Green 개념)</li>
+</ul>
+<hr />
+<h2 id="16">16. 아키텍처 &amp; 설계<a class="headerlink" href="#16" title="Permanent link">&para;</a></h2>
+<ul>
+<li>[ ] 레이어드 아키텍처 (Controller - Service - Repository)</li>
+<li>[ ] DTO / VO / Entity 분리 원칙</li>
+<li>[ ] REST API URL 설계 규칙</li>
+<li>[ ] 빌더 패턴 (@Builder 활용)</li>
+<li>[ ] 디자인 패턴: 싱글톤</li>
+<li>[ ] 디자인 패턴: 팩토리 메서드</li>
+<li>[ ] 디자인 패턴: 전략 패턴</li>
+<li>[ ] 디자인 패턴: 템플릿 메서드</li>
+<li>[ ] 디자인 패턴: 옵저버 패턴</li>
+<li>[ ] 도메인 모델 설계 기초</li>
+</ul>
+<hr />
+<h2 id="17">17. 성능 &amp; 최적화<a class="headerlink" href="#17" title="Permanent link">&para;</a></h2>
+<ul>
+<li>[ ] Redis 기본 자료구조 (String, List, Hash, Set, ZSet)</li>
+<li>[ ] Redis 캐싱 전략 (Cache-Aside, Write-Through)</li>
+<li>[ ] Redis TTL &amp; 만료 전략</li>
+<li>[ ] DB 쿼리 최적화 (실행계획 분석, 인덱스 활용)</li>
+<li>[ ] 커넥션 풀 튜닝 기초 (HikariCP 설정)</li>
+<li>[ ] 페이징 쿼리 최적화 (offset vs cursor)</li>
+<li>[ ] JVM 튜닝 기초 (힙 사이즈 설정)</li>
+</ul>
+<hr />
+<h2 id="_2">📌 면접 빈출 주제 별도 정리<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p>아래 항목은 위 체크리스트와 중복되지만, 면접에서 특히 자주 나오는 것들만 별도 표시</p>
+</blockquote>
+<ul>
+<li>[ ] Java에서 <code>==</code> vs <code>equals()</code> 차이</li>
+<li>[ ] HashMap 내부 동작 원리</li>
+<li>[ ] 싱글톤 패턴의 문제점과 Spring에서의 해결</li>
+<li>[ ] Spring Bean 주입 방식과 생성자 주입 권장 이유</li>
+<li>[ ] @Transactional 동작 원리 &amp; 주의사항</li>
+<li>[ ] JPA N+1 문제 원인과 해결 방법</li>
+<li>[ ] 인덱스가 있어도 쿼리가 느린 이유</li>
+<li>[ ] 트랜잭션 격리 수준 4단계</li>
+<li>[ ] JWT vs 세션 방식 비교</li>
+<li>[ ] HTTP vs HTTPS 차이</li>
+<li>[ ] TCP 3-way handshake</li>
+<li>[ ] 프로세스 vs 스레드</li>
+<li>[ ] Deadlock 조건과 해결 방법</li>
+<li>[ ] RESTful API 설계 원칙</li>
+<li>[ ] Docker를 사용하는 이유</li>
+</ul>
+<hr />
+<p><em>마지막 업데이트: 2026-04</em></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "search.suggest", "search.highlight", "content.code.copy"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\ud074\ub9bd\ubcf4\ub4dc\uc5d0 \ubcf5\uc0ac\ub428", "clipboard.copy": "\ud074\ub9bd\ubcf4\ub4dc\ub85c \ubcf5\uc0ac", "search.result.more.one": "\uc774 \ubb38\uc11c\uc5d0\uc11c 1\uac1c\uc758 \uac80\uc0c9 \uacb0\uacfc \ub354 \ubcf4\uae30", "search.result.more.other": "\uc774 \ubb38\uc11c\uc5d0\uc11c #\uac1c\uc758 \uac80\uc0c9 \uacb0\uacfc \ub354 \ubcf4\uae30", "search.result.none": "\uac80\uc0c9\uc5b4\uc640 \uc77c\uce58\ud558\ub294 \ubb38\uc11c\uac00 \uc5c6\uc2b5\ub2c8\ub2e4", "search.result.one": "1\uac1c\uc758 \uc77c\uce58\ud558\ub294 \ubb38\uc11c", "search.result.other": "#\uac1c\uc758 \uc77c\uce58\ud558\ub294 \ubb38\uc11c", "search.result.placeholder": "\uac80\uc0c9\uc5b4\ub97c \uc785\ub825\ud558\uc138\uc694", "search.result.term.missing": "\ud3ec\ud568\ub418\uc9c0 \uc54a\uc740 \uac80\uc0c9\uc5b4", "select.version": "\ubc84\uc804 \uc120\ud0dd"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

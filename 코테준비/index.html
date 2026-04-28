@@ -1,0 +1,4557 @@
+
+<!doctype html>
+<html lang="ko" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="개인 백엔드 학습 위키">
+      
+      
+      
+        <link rel="canonical" href="https://vivatubeh.github.io/VivaWiki/%EC%BD%94%ED%85%8C%EC%A4%80%EB%B9%84/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Coding Test 로드맵 - VivaWiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,300i,400,400i,700,700i%7CJetBrains+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Noto Sans KR";--md-code-font:"JetBrains Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#coding-test" class="md-skip">
+          콘텐츠로 이동
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="상단/헤더">
+    <a href=".." title="VivaWiki" class="md-header__button md-logo" aria-label="VivaWiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            VivaWiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Coding Test 로드맵
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="검색" placeholder="검색" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="검색">
+        
+        <button type="reset" class="md-search__icon md-icon" title="지우기" aria-label="지우기" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            검색 초기화
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="탭" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  홈
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../CS%20%EA%B8%B0%EC%B4%88/" class="md-tabs__link">
+          
+  
+  
+  CS 기초
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Java/" class="md-tabs__link">
+          
+  
+  
+  Java
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Spring/" class="md-tabs__link">
+          
+  
+  
+  Spring
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C/" class="md-tabs__link">
+          
+  
+  
+  프론트엔드
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../%EA%B0%9C%EB%B0%9C%EB%8F%84%EA%B5%AC/" class="md-tabs__link">
+          
+  
+  
+  개발도구
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%20%26%20%EC%84%A4%EA%B3%84/" class="md-tabs__link">
+          
+  
+  
+  아키텍처 & 설계
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="네비게이션" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="VivaWiki" class="md-nav__button md-logo" aria-label="VivaWiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    VivaWiki
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    홈
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CS 기초
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    CS 기초
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS%20%EA%B8%B0%EC%B4%88/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    네트워크
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    네트워크
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS%20%EA%B8%B0%EC%B4%88/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    운영체제
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    운영체제
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS%20%EA%B8%B0%EC%B4%88/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS%20%EA%B8%B0%EC%B4%88/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%EC%9D%98%20%EC%82%AC%EC%9A%A9%EC%9E%90%20%EB%AA%A8%EB%93%9C%20vs%20%EC%BB%A4%EB%84%90%20%EB%AA%A8%EB%93%9C/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    사용자 모드 vs 커널 모드
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    컴퓨터구조
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    컴퓨터구조
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS%20%EA%B8%B0%EC%B4%88/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_5" id="__nav_2_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    자료구조 & 알고리즘
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    자료구조 & 알고리즘
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS%20%EA%B8%B0%EC%B4%88/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%20%26%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_6" id="__nav_2_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    데이터베이스
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    데이터베이스
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS%20%EA%B8%B0%EC%B4%88/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_6_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_6_2" id="__nav_2_6_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SQL
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_6_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_6_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    SQL
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS%20%EA%B8%B0%EC%B4%88/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4/SQL/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_6_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_6_3" id="__nav_2_6_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    설계 & 최적화
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_6_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_6_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    설계 & 최적화
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS%20%EA%B8%B0%EC%B4%88/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4/%EC%84%A4%EA%B3%84%20%26%20%EC%B5%9C%EC%A0%81%ED%99%94/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_6_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_6_4" id="__nav_2_6_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    트랜잭션 & 동시성
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_6_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_6_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    트랜잭션 & 동시성
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS%20%EA%B8%B0%EC%B4%88/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4/%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98%20%26%20%EB%8F%99%EC%8B%9C%EC%84%B1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Java
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Java
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Java/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Spring
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Spring
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Spring/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Spring 이론
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Spring 이론
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Spring/Spring%20%EC%9D%B4%EB%A1%A0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_3" id="__nav_4_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Spring 구현
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Spring 구현
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Spring/Spring%20%EA%B5%AC%ED%98%84/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_4" id="__nav_4_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    JPA & ORM
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    JPA & ORM
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Spring/JPA%20%26%20ORM/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_5" id="__nav_4_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    보안
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    보안
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Spring/%EB%B3%B4%EC%95%88/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_6" id="__nav_4_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    테스팅
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    테스팅
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Spring/%ED%85%8C%EC%8A%A4%ED%8C%85/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_7" id="__nav_4_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    로깅
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    로깅
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Spring/%EB%A1%9C%EA%B9%85/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    프론트엔드
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    프론트엔드
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2" id="__nav_5_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    HTML
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    HTML
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C/HTML/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_3" id="__nav_5_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CSS
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    CSS
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C/CSS/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_4" id="__nav_5_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    JavaScript
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    JavaScript
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C/JavaScript/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_5" id="__nav_5_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    비동기 처리
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    비동기 처리
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C/%EB%B9%84%EB%8F%99%EA%B8%B0%20%EC%B2%98%EB%A6%AC/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_6" id="__nav_5_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    서버 템플릿 엔진
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    서버 템플릿 엔진
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C/%EC%84%9C%EB%B2%84%20%ED%85%9C%ED%94%8C%EB%A6%BF%20%EC%97%94%EC%A7%84/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_7" id="__nav_5_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    프론트엔드 라이브러리
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    프론트엔드 라이브러리
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    개발도구
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    개발도구
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%EA%B0%9C%EB%B0%9C%EB%8F%84%EA%B5%AC/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    버전 관리 Git & Github
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    버전 관리 Git & Github
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%EA%B0%9C%EB%B0%9C%EB%8F%84%EA%B5%AC/%EB%B2%84%EC%A0%84%20%EA%B4%80%EB%A6%AC%20Git%20%26%20Github/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_3" id="__nav_6_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    빌드 도구
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    빌드 도구
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%EA%B0%9C%EB%B0%9C%EB%8F%84%EA%B5%AC/%EB%B9%8C%EB%93%9C%20%EB%8F%84%EA%B5%AC/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_4" id="__nav_6_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    인프라 & DevOps
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    인프라 & DevOps
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%EA%B0%9C%EB%B0%9C%EB%8F%84%EA%B5%AC/%EC%9D%B8%ED%94%84%EB%9D%BC%20%26%20DevOps/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_5" id="__nav_6_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IntelliJ
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    IntelliJ
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../개발도구/IntelliJ/index.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    아키텍처 & 설계
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    아키텍처 & 설계
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%20%26%20%EC%84%A4%EA%B3%84/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="목차">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      목차
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. 사이트 역할 분리
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. 사이트 역할 분리">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#leetcode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        LeetCode
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        프로그래머스
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. 리트코드 처음 시작하는 방법
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. 리트코드 처음 시작하는 방법">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        처음 세팅
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        리트코드에서 주로 쓸 기능
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        리트코드 운영 원칙
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. 프로그래머스 활용 방법
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. 프로그래머스 활용 방법">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        주로 쓸 영역
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        프로그래머스 운영 원칙
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. 전체 학습 흐름
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. 전체 학습 흐름">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        한 주제당 고정 루틴
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#claude" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Claude에게 물어볼 템플릿
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. 시간 투자 방식
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        추천 비율
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        주간 권장 시간
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="주간 권장 시간">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        표준 플랜
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        하루 예시
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        주말 예시
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. 네 커리큘럼 기반 주제별 풀이 방식
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4-1. 자료구조
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4-1. 자료구조">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#array" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Array
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#string" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        String
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#linkedlist" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        LinkedList 개념
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hash-hashmap-hashset" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hash 활용 (HashMap / HashSet)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stack-queue" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stack &amp; Queue
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#heap" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Heap (우선순위 큐)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tree" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tree
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#graph" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Graph
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hashmap" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        HashMap 내부 동작
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4-2. 알고리즘
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4-2. 알고리즘">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        시간/공간 복잡도
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        구현 / 시뮬레이션 기초
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        정렬 기초
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        재귀 기초
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        투 포인터
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        슬라이딩 윈도우
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_19" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        누적합
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_20" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        이진 탐색
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dfs-bfs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DFS &amp; BFS
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        완전탐색
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_22" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        백트래킹 기초
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_23" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        그리디 기초
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        동적 프로그래밍 (DP) 기초
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#union-find" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Union-Find
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_24" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        파라메트릭 서치
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_25" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        최단경로 기초
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. 주차별 로드맵
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7. 주차별 로드맵">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1주차
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2주차
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3주차
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4주차
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5주차
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6주차
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7주차
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8주차
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. 실제 문제를 풀 때 규칙
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. 결론
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_26" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        참고 링크
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="coding-test">Coding Test 로드맵<a class="headerlink" href="#coding-test" title="Permanent link">&para;</a></h1>
+<blockquote>
+<p>목표: 백엔드 신입 취업에 필요한 코딩테스트를 대부분 무난하게 통과할 수 있는 실력을 만든다<br />
+언어: Java<br />
+플랫폼: LeetCode + 프로그래머스<br />
+학습 방식: <code>Claude로 개념/코드 학습 -&gt; LeetCode로 패턴 훈련 -&gt; 프로그래머스로 국내형 실전 적용</code></p>
+</blockquote>
+<hr />
+<h2 id="1">1. 사이트 역할 분리<a class="headerlink" href="#1" title="Permanent link">&para;</a></h2>
+<h3 id="leetcode">LeetCode<a class="headerlink" href="#leetcode" title="Permanent link">&para;</a></h3>
+<ul>
+<li>역할: 자료구조/알고리즘 <code>패턴 학습</code></li>
+<li>강점:<ul>
+<li>태그 기반으로 문제를 모아 풀기 좋음</li>
+<li>공식 <code>Study Plan</code>이 잘 되어 있음</li>
+<li>배열, 해시, 투 포인터, 슬라이딩 윈도우, 트리, 그래프, DP 같은 패턴 훈련에 강함</li>
+</ul>
+</li>
+<li>너한테 맞는 용도:<ul>
+<li>새 개념을 배운 직후 <code>유형 감각</code>을 익히는 메인 사이트</li>
+<li>Easy -&gt; Medium으로 자연스럽게 난이도 올리기</li>
+</ul>
+</li>
+</ul>
+<h3 id="_1">프로그래머스<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li>역할: <code>국내 기업형 코테 감각</code> 훈련</li>
+<li>강점:<ul>
+<li>공식 <code>코딩테스트 고득점 Kit</code>가 있음</li>
+<li>해시, 스택/큐, 힙, 정렬, 완전탐색, 탐욕법, DFS/BFS, 이분탐색, 그래프 등 코테 빈출 카테고리로 정리됨</li>
+<li>SQL 문제도 같이 준비 가능</li>
+</ul>
+</li>
+<li>너한테 맞는 용도:<ul>
+<li>LeetCode에서 익힌 패턴을 한국형 문제에 적용</li>
+<li>실전 문제 세트 감각 만들기</li>
+<li>SQL 코테 병행</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h2 id="2">2. 리트코드 처음 시작하는 방법<a class="headerlink" href="#2" title="Permanent link">&para;</a></h2>
+<h3 id="_2">처음 세팅<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h3>
+<ol>
+<li>회원가입</li>
+<li>언어를 <code>Java</code>로 고정</li>
+<li><code>Problems</code> 탭에서 태그/난이도 필터 익히기</li>
+<li><code>Study Plan</code>에서 <code>Top Interview 150</code> 저장</li>
+<li>연습할 태그별 문제를 <code>My List</code>나 별도 노트에 관리</li>
+</ol>
+<h3 id="_3">리트코드에서 주로 쓸 기능<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h3>
+<ul>
+<li><code>Problems</code><ul>
+<li>태그별 문제 검색</li>
+<li>난이도 Easy / Medium 필터</li>
+</ul>
+</li>
+<li><code>Study Plan</code><ul>
+<li><code>Top Interview 150</code> 중심으로 진행</li>
+</ul>
+</li>
+<li><code>Explore / Learn</code><ul>
+<li>개념이 약한 주제 보강용</li>
+</ul>
+</li>
+<li><code>Discuss / Editorial</code><ul>
+<li>막힌 문제 해설 참고용</li>
+</ul>
+</li>
+</ul>
+<h3 id="_4">리트코드 운영 원칙<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
+<ul>
+<li>처음부터 랜덤으로 풀지 않기</li>
+<li><code>배운 주제 -&gt; 해당 태그 문제 3~5개</code> 방식으로 풀기</li>
+<li>Easy만 오래 붙들지 말고, 익숙해지면 바로 Medium 입문</li>
+<li>목표는 문제 수가 아니라 <code>패턴 인식</code>이다</li>
+</ul>
+<hr />
+<h2 id="3">3. 프로그래머스 활용 방법<a class="headerlink" href="#3" title="Permanent link">&para;</a></h2>
+<h3 id="_5">주로 쓸 영역<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
+<ul>
+<li><code>코딩테스트 고득점 Kit</code><ul>
+<li>해시</li>
+<li>스택/큐</li>
+<li>힙</li>
+<li>정렬</li>
+<li>완전탐색</li>
+<li>탐욕법</li>
+<li>동적계획법</li>
+<li>DFS/BFS</li>
+<li>이분탐색</li>
+<li>그래프</li>
+</ul>
+</li>
+<li><code>모든 문제</code><ul>
+<li>필요한 카테고리/레벨 추가 풀이</li>
+</ul>
+</li>
+<li><code>SQL 문제</code><ul>
+<li>백엔드 취준용 SQL 코테 대비</li>
+</ul>
+</li>
+</ul>
+<h3 id="_6">프로그래머스 운영 원칙<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Lv1은 너무 오래 붙잡지 않기</li>
+<li>Lv2를 주력으로 삼기</li>
+<li>LeetCode로 배운 패턴을 프로그래머스에서 다시 적용하기</li>
+<li>SQL은 주 1회 별도 학습</li>
+</ul>
+<hr />
+<h2 id="4">4. 전체 학습 흐름<a class="headerlink" href="#4" title="Permanent link">&para;</a></h2>
+<h3 id="_7">한 주제당 고정 루틴<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h3>
+<ol>
+<li><code>Claude</code>로 개념 학습</li>
+<li>Java 예제 코드 / 템플릿 이해</li>
+<li>LeetCode로 패턴 문제 3~5개 풀이</li>
+<li>프로그래머스로 국내형 문제 1~2개 풀이</li>
+<li>오답 정리</li>
+<li>2~3일 뒤 재풀이</li>
+</ol>
+<h3 id="claude">Claude에게 물어볼 템플릿<a class="headerlink" href="#claude" title="Permanent link">&para;</a></h3>
+<p><code>코테준비.md의 [주제명]을 공부하려고 해.</code>
+<code>Java 사용자 기준으로</code>
+<code>1. 개념 설명</code>
+<code>2. 코테에서 어떤 식으로 나오는지</code>
+<code>3. 자바 예제 코드</code>
+<code>4. 대표 풀이 템플릿</code>
+<code>5. 헷갈리기 쉬운 포인트</code>
+<code>6. LeetCode/프로그래머스에서 어떤 유형 문제를 풀면 좋은지</code>
+<code>순서로 정리해줘.</code></p>
+<hr />
+<h2 id="5">5. 시간 투자 방식<a class="headerlink" href="#5" title="Permanent link">&para;</a></h2>
+<h2 id="_8">추천 비율<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h2>
+<ul>
+<li>개념 학습: <code>30%</code></li>
+<li>문제 풀이: <code>50%</code></li>
+<li>오답 복습: <code>20%</code></li>
+</ul>
+<h2 id="_9">주간 권장 시간<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h2>
+<h3 id="_10">표준 플랜<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h3>
+<ul>
+<li>주 10~14시간</li>
+<li>평일: 1.5시간 x 4~5일</li>
+<li>주말: 2~3시간 x 2일</li>
+</ul>
+<h3 id="_11">하루 예시<a class="headerlink" href="#_11" title="Permanent link">&para;</a></h3>
+<ul>
+<li>개념 학습 30분</li>
+<li>LeetCode 1문제 30~40분</li>
+<li>풀이 리뷰 20분</li>
+<li>오답 정리 10분</li>
+</ul>
+<h3 id="_12">주말 예시<a class="headerlink" href="#_12" title="Permanent link">&para;</a></h3>
+<ul>
+<li>프로그래머스 2문제</li>
+<li>이번 주 오답 재풀이</li>
+<li>SQL 1문제 또는 부족한 유형 보강</li>
+</ul>
+<hr />
+<h2 id="6">6. 네 커리큘럼 기반 주제별 풀이 방식<a class="headerlink" href="#6" title="Permanent link">&para;</a></h2>
+<h2 id="4-1">4-1. 자료구조<a class="headerlink" href="#4-1" title="Permanent link">&para;</a></h2>
+<h3 id="array">Array<a class="headerlink" href="#array" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Claude:<ul>
+<li>배열 특징</li>
+<li>인덱스 접근</li>
+<li>Java 배열 사용법</li>
+</ul>
+</li>
+<li>LeetCode:<ul>
+<li>Array / String Easy 위주 3~5문제</li>
+</ul>
+</li>
+<li>프로그래머스:<ul>
+<li>구현 / 배열 다루기 문제 1~2문제</li>
+</ul>
+</li>
+</ul>
+<h3 id="string">String<a class="headerlink" href="#string" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Claude:<ul>
+<li>문자열 처리</li>
+<li>부분문자열</li>
+<li>StringBuilder</li>
+</ul>
+</li>
+<li>LeetCode:<ul>
+<li>String, Two Pointers 입문 문제</li>
+</ul>
+</li>
+<li>프로그래머스:<ul>
+<li>문자열 처리 문제 1~2문제</li>
+</ul>
+</li>
+</ul>
+<h3 id="linkedlist">LinkedList 개념<a class="headerlink" href="#linkedlist" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Claude:<ul>
+<li>배열과 차이</li>
+<li>연결 구조</li>
+<li>삽입/삭제 특징</li>
+</ul>
+</li>
+<li>LeetCode:<ul>
+<li>Linked List Easy 2~3문제만</li>
+</ul>
+</li>
+<li>프로그래머스:<ul>
+<li>굳이 강하게 비중 둘 필요 없음</li>
+</ul>
+</li>
+</ul>
+<h3 id="hash-hashmap-hashset">Hash 활용 (HashMap / HashSet)<a class="headerlink" href="#hash-hashmap-hashset" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Claude:<ul>
+<li>빈도수 세기</li>
+<li>중복 제거</li>
+<li>빠른 조회</li>
+</ul>
+</li>
+<li>LeetCode:<ul>
+<li>Hash Table 태그 4~5문제</li>
+</ul>
+</li>
+<li>프로그래머스:<ul>
+<li>고득점 Kit <code>해시</code> 1~2문제</li>
+</ul>
+</li>
+</ul>
+<h3 id="stack-queue">Stack &amp; Queue<a class="headerlink" href="#stack-queue" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Claude:<ul>
+<li>LIFO/FIFO</li>
+<li>Java <code>ArrayDeque</code> 사용법</li>
+</ul>
+</li>
+<li>LeetCode:<ul>
+<li>Stack / Queue 문제 3~4문제</li>
+</ul>
+</li>
+<li>프로그래머스:<ul>
+<li>고득점 Kit <code>스택/큐</code> 1~2문제</li>
+</ul>
+</li>
+</ul>
+<h3 id="heap">Heap (우선순위 큐)<a class="headerlink" href="#heap" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Claude:<ul>
+<li>최소힙/최대힙</li>
+<li>Java <code>PriorityQueue</code></li>
+</ul>
+</li>
+<li>LeetCode:<ul>
+<li>Heap 태그 2~3문제</li>
+</ul>
+</li>
+<li>프로그래머스:<ul>
+<li>고득점 Kit <code>힙</code> 1문제</li>
+</ul>
+</li>
+</ul>
+<h3 id="tree">Tree<a class="headerlink" href="#tree" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Claude:<ul>
+<li>이진 트리</li>
+<li>BST</li>
+<li>전위/중위/후위/레벨 순회</li>
+</ul>
+</li>
+<li>LeetCode:<ul>
+<li>Tree Easy/Medium 3~4문제</li>
+</ul>
+</li>
+<li>프로그래머스:<ul>
+<li>직접 비중은 낮지만 DFS/BFS 문제와 연결</li>
+</ul>
+</li>
+</ul>
+<h3 id="graph">Graph<a class="headerlink" href="#graph" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Claude:<ul>
+<li>인접 리스트</li>
+<li>인접 행렬</li>
+<li>DFS/BFS 연결</li>
+</ul>
+</li>
+<li>LeetCode:<ul>
+<li>Graph 기초 2~3문제</li>
+</ul>
+</li>
+<li>프로그래머스:<ul>
+<li>고득점 Kit <code>그래프</code>는 후반부에 풀이</li>
+</ul>
+</li>
+</ul>
+<h3 id="hashmap">HashMap 내부 동작<a class="headerlink" href="#hashmap" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Claude:<ul>
+<li>해시 충돌</li>
+<li>equals/hashCode</li>
+<li>내부 구조</li>
+</ul>
+</li>
+<li>LeetCode / 프로그래머스:<ul>
+<li>문제 풀이보다는 면접 보강용</li>
+</ul>
+</li>
+<li>메모:<ul>
+<li>코테용보다 면접용 비중이 큼</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h2 id="4-2">4-2. 알고리즘<a class="headerlink" href="#4-2" title="Permanent link">&para;</a></h2>
+<h3 id="_13">시간/공간 복잡도<a class="headerlink" href="#_13" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Claude:<ul>
+<li>Big-O</li>
+<li>O(1), O(logN), O(N), O(NlogN), O(N^2)</li>
+</ul>
+</li>
+<li>LeetCode/프로그래머스:<ul>
+<li>별도 문제보다 풀이 후 복잡도 분석 습관 들이기</li>
+</ul>
+</li>
+</ul>
+<h3 id="_14">구현 / 시뮬레이션 기초<a class="headerlink" href="#_14" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Claude:<ul>
+<li>조건 분기</li>
+<li>배열/문자열 조작</li>
+<li>좌표 이동</li>
+</ul>
+</li>
+<li>LeetCode:<ul>
+<li>Array/String 구현 문제</li>
+</ul>
+</li>
+<li>프로그래머스:<ul>
+<li>구현형 문제 적극 활용</li>
+</ul>
+</li>
+</ul>
+<h3 id="_15">정렬 기초<a class="headerlink" href="#_15" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Claude:<ul>
+<li>정렬 개념</li>
+<li>Java <code>Arrays.sort</code>, <code>Collections.sort</code>, <code>Comparator</code></li>
+</ul>
+</li>
+<li>LeetCode:<ul>
+<li>Sorting 태그 2~3문제</li>
+</ul>
+</li>
+<li>프로그래머스:<ul>
+<li>고득점 Kit <code>정렬</code> 1~2문제</li>
+</ul>
+</li>
+</ul>
+<h3 id="_16">재귀 기초<a class="headerlink" href="#_16" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Claude:<ul>
+<li>종료 조건</li>
+<li>호출 흐름</li>
+</ul>
+</li>
+<li>LeetCode:<ul>
+<li>재귀 기반 트리/DFS 입문 문제</li>
+</ul>
+</li>
+<li>프로그래머스:<ul>
+<li>DFS/백트래킹 전 준비용</li>
+</ul>
+</li>
+</ul>
+<h3 id="_17">투 포인터<a class="headerlink" href="#_17" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Claude:<ul>
+<li>양끝 포인터</li>
+<li>빠른-느린 포인터</li>
+</ul>
+</li>
+<li>LeetCode:<ul>
+<li>Two Pointers 태그 3~4문제</li>
+</ul>
+</li>
+<li>프로그래머스:<ul>
+<li>직접 태그는 적지만 배열/문자열 문제에 적용</li>
+</ul>
+</li>
+</ul>
+<h3 id="_18">슬라이딩 윈도우<a class="headerlink" href="#_18" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Claude:<ul>
+<li>고정 길이 / 가변 길이 윈도우</li>
+</ul>
+</li>
+<li>LeetCode:<ul>
+<li>Sliding Window 문제 3문제</li>
+</ul>
+</li>
+<li>프로그래머스:<ul>
+<li>문자열/연속 구간 문제에 적용</li>
+</ul>
+</li>
+</ul>
+<h3 id="_19">누적합<a class="headerlink" href="#_19" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Claude:<ul>
+<li>prefix sum 배열</li>
+<li>구간합 계산</li>
+</ul>
+</li>
+<li>LeetCode:<ul>
+<li>Prefix Sum / Array 문제 2~3문제</li>
+</ul>
+</li>
+<li>프로그래머스:<ul>
+<li>구현/배열 문제에 적용</li>
+</ul>
+</li>
+</ul>
+<h3 id="_20">이진 탐색<a class="headerlink" href="#_20" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Claude:<ul>
+<li>정렬 배열 탐색</li>
+<li>lower/upper 개념</li>
+</ul>
+</li>
+<li>LeetCode:<ul>
+<li>Binary Search 3문제</li>
+</ul>
+</li>
+<li>프로그래머스:<ul>
+<li>고득점 Kit <code>이분탐색</code> 1~2문제</li>
+</ul>
+</li>
+</ul>
+<h3 id="dfs-bfs">DFS &amp; BFS<a class="headerlink" href="#dfs-bfs" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Claude:<ul>
+<li>트리/그래프 탐색</li>
+<li>재귀/반복</li>
+</ul>
+</li>
+<li>LeetCode:<ul>
+<li>DFS/BFS 4~5문제</li>
+</ul>
+</li>
+<li>프로그래머스:<ul>
+<li>고득점 Kit <code>DFS/BFS</code> 2문제</li>
+</ul>
+</li>
+</ul>
+<h3 id="_21">완전탐색<a class="headerlink" href="#_21" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Claude:<ul>
+<li>모든 경우 확인</li>
+<li>순열/조합 기초</li>
+</ul>
+</li>
+<li>LeetCode:<ul>
+<li>Backtracking 초입 문제</li>
+</ul>
+</li>
+<li>프로그래머스:<ul>
+<li>고득점 Kit <code>완전탐색</code> 2문제</li>
+</ul>
+</li>
+</ul>
+<h3 id="_22">백트래킹 기초<a class="headerlink" href="#_22" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Claude:<ul>
+<li>상태 복원</li>
+<li>선택/취소 패턴</li>
+</ul>
+</li>
+<li>LeetCode:<ul>
+<li>Backtracking 2~3문제</li>
+</ul>
+</li>
+<li>프로그래머스:<ul>
+<li>DFS/완전탐색과 연결</li>
+</ul>
+</li>
+</ul>
+<h3 id="_23">그리디 기초<a class="headerlink" href="#_23" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Claude:<ul>
+<li>지역 최적 선택</li>
+<li>반례 찾는 법</li>
+</ul>
+</li>
+<li>LeetCode:<ul>
+<li>Greedy 2~3문제</li>
+</ul>
+</li>
+<li>프로그래머스:<ul>
+<li>고득점 Kit <code>탐욕법</code> 1~2문제</li>
+</ul>
+</li>
+</ul>
+<h3 id="dp">동적 프로그래밍 (DP) 기초<a class="headerlink" href="#dp" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Claude:<ul>
+<li>점화식</li>
+<li>메모이제이션 / 바텀업</li>
+</ul>
+</li>
+<li>LeetCode:<ul>
+<li>DP Easy~Medium 2~3문제</li>
+</ul>
+</li>
+<li>프로그래머스:<ul>
+<li>고득점 Kit <code>동적계획법</code> 1문제</li>
+</ul>
+</li>
+</ul>
+<h3 id="union-find">Union-Find<a class="headerlink" href="#union-find" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Claude:<ul>
+<li>부모 배열</li>
+<li>경로 압축</li>
+</ul>
+</li>
+<li>LeetCode:<ul>
+<li>Graph 연결성 문제 1~2문제</li>
+</ul>
+</li>
+<li>프로그래머스:<ul>
+<li>후순위</li>
+</ul>
+</li>
+</ul>
+<h3 id="_24">파라메트릭 서치<a class="headerlink" href="#_24" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Claude:<ul>
+<li>답의 범위를 이분 탐색</li>
+</ul>
+</li>
+<li>LeetCode:<ul>
+<li>Binary Search 응용 1~2문제</li>
+</ul>
+</li>
+<li>프로그래머스:<ul>
+<li>이분탐색 응용 문제에 사용</li>
+</ul>
+</li>
+</ul>
+<h3 id="_25">최단경로 기초<a class="headerlink" href="#_25" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Claude:<ul>
+<li>다익스트라 개념</li>
+<li>우선순위 큐 사용</li>
+</ul>
+</li>
+<li>LeetCode:<ul>
+<li>Graph / Shortest Path 입문 1~2문제</li>
+</ul>
+</li>
+<li>프로그래머스:<ul>
+<li>그래프 후반부 보강용</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h2 id="7">7. 주차별 로드맵<a class="headerlink" href="#7" title="Permanent link">&para;</a></h2>
+<h3 id="1_1">1주차<a class="headerlink" href="#1_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li>시간/공간 복잡도</li>
+<li>Array</li>
+<li>String</li>
+<li>구현 / 시뮬레이션 기초</li>
+<li>LeetCode 4문제</li>
+<li>프로그래머스 2문제</li>
+</ul>
+<h3 id="2_1">2주차<a class="headerlink" href="#2_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Hash 활용</li>
+<li>Stack &amp; Queue</li>
+<li>정렬 기초</li>
+<li>재귀 기초</li>
+<li>LeetCode 5문제</li>
+<li>프로그래머스 2문제</li>
+</ul>
+<h3 id="3_1">3주차<a class="headerlink" href="#3_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li>투 포인터</li>
+<li>슬라이딩 윈도우</li>
+<li>누적합</li>
+<li>LeetCode 5문제</li>
+<li>프로그래머스 2문제</li>
+</ul>
+<h3 id="4_1">4주차<a class="headerlink" href="#4_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li>이진 탐색</li>
+<li>파라메트릭 서치</li>
+<li>완전탐색</li>
+<li>LeetCode 4~5문제</li>
+<li>프로그래머스 2문제</li>
+</ul>
+<h3 id="5_1">5주차<a class="headerlink" href="#5_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li>DFS</li>
+<li>BFS</li>
+<li>Tree 기초</li>
+<li>Graph 기초</li>
+<li>LeetCode 5문제</li>
+<li>프로그래머스 2문제</li>
+</ul>
+<h3 id="6_1">6주차<a class="headerlink" href="#6_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Heap</li>
+<li>그리디 기초</li>
+<li>LinkedList 개념</li>
+<li>LeetCode 4문제</li>
+<li>프로그래머스 2문제</li>
+</ul>
+<h3 id="7_1">7주차<a class="headerlink" href="#7_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li>백트래킹 기초</li>
+<li>Union-Find</li>
+<li>최단경로 기초</li>
+<li>LeetCode 4문제</li>
+<li>프로그래머스 2문제</li>
+</ul>
+<h3 id="8">8주차<a class="headerlink" href="#8" title="Permanent link">&para;</a></h3>
+<ul>
+<li>DP 기초</li>
+<li>HashMap 내부 동작</li>
+<li>전체 오답 복습</li>
+<li>LeetCode 4문제</li>
+<li>프로그래머스 2문제</li>
+<li>SQL 1문제</li>
+</ul>
+<hr />
+<h2 id="8_1">8. 실제 문제를 풀 때 규칙<a class="headerlink" href="#8_1" title="Permanent link">&para;</a></h2>
+<ul>
+<li>한 문제당 <code>30분</code> 이상 막히면 힌트 또는 해설 보기</li>
+<li>해설 본 문제는 <code>다음날 무조건 재풀이</code></li>
+<li>오답노트는 아래 3개만 적기<ul>
+<li>내가 막힌 이유</li>
+<li>핵심 아이디어 1줄</li>
+<li>다시 풀 날짜</li>
+</ul>
+</li>
+<li>Easy만 오래 하지 말고, 익숙한 유형은 Medium으로 올리기</li>
+<li>프로그래머스는 Lv1 오래 하지 말고 <code>Lv2 중심</code>으로 가기</li>
+</ul>
+<hr />
+<h2 id="9">9. 결론<a class="headerlink" href="#9" title="Permanent link">&para;</a></h2>
+<ul>
+<li><code>LeetCode</code>: 패턴 학습 메인</li>
+<li><code>프로그래머스</code>: 국내형 실전 감각 + SQL 보강</li>
+<li><code>Claude</code>: 개념, 코드, 템플릿 이해</li>
+<li><code>코테준비.md</code>: 전체 진도 기준표</li>
+</ul>
+<p>한 줄 전략:
+<code>Claude로 개념을 배우고, LeetCode로 유형을 익히고, 프로그래머스로 실전 감각을 붙이는 방식으로 간다.</code></p>
+<hr />
+<h2 id="_26">참고 링크<a class="headerlink" href="#_26" title="Permanent link">&para;</a></h2>
+<ul>
+<li>LeetCode QuickStart Guide: https://support.leetcode.com/hc/en-us/articles/360012067053-LeetCode-QuickStart-Guide</li>
+<li>LeetCode Top Interview 150: https://leetcode.com/studyplan/top-interview-150/</li>
+<li>프로그래머스 코딩테스트 고득점 Kit: https://school.programmers.co.kr/learn/challenges?tab=algorithm_practice_kit</li>
+<li>프로그래머스 코딩테스트 문제 홈: https://school.programmers.co.kr/learn/challenges</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "search.suggest", "search.highlight", "content.code.copy"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\ud074\ub9bd\ubcf4\ub4dc\uc5d0 \ubcf5\uc0ac\ub428", "clipboard.copy": "\ud074\ub9bd\ubcf4\ub4dc\ub85c \ubcf5\uc0ac", "search.result.more.one": "\uc774 \ubb38\uc11c\uc5d0\uc11c 1\uac1c\uc758 \uac80\uc0c9 \uacb0\uacfc \ub354 \ubcf4\uae30", "search.result.more.other": "\uc774 \ubb38\uc11c\uc5d0\uc11c #\uac1c\uc758 \uac80\uc0c9 \uacb0\uacfc \ub354 \ubcf4\uae30", "search.result.none": "\uac80\uc0c9\uc5b4\uc640 \uc77c\uce58\ud558\ub294 \ubb38\uc11c\uac00 \uc5c6\uc2b5\ub2c8\ub2e4", "search.result.one": "1\uac1c\uc758 \uc77c\uce58\ud558\ub294 \ubb38\uc11c", "search.result.other": "#\uac1c\uc758 \uc77c\uce58\ud558\ub294 \ubb38\uc11c", "search.result.placeholder": "\uac80\uc0c9\uc5b4\ub97c \uc785\ub825\ud558\uc138\uc694", "search.result.term.missing": "\ud3ec\ud568\ub418\uc9c0 \uc54a\uc740 \uac80\uc0c9\uc5b4", "select.version": "\ubc84\uc804 \uc120\ud0dd"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
