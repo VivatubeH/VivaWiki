@@ -46,6 +46,7 @@ nav:
           - Index: CS 기초/네트워크/index.md
       - 운영체제:
           - Index: CS 기초/운영체제/index.md
+          - 사용자 모드 vs 커널 모드: CS 기초/운영체제/운영체제의 사용자 모드 vs 커널 모드.md
       - 컴퓨터구조:
           - Index: CS 기초/컴퓨터구조/index.md
       - 자료구조 & 알고리즘:
